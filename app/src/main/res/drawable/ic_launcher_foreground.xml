@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  自适应图标前景：一只暖橙色碗，碗里装满白米饭，碗上横搁一双筷子。
+  视口 108x108，内容收在中心直径 66 的安全区内（不会被各家的遮罩切掉）。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 碗身 -->
+    <path
+        android:fillColor="#C8551F"
+        android:pathData="M28,58 C28,72.5 39,80 54,80 C69,80 80,72.5 80,58 Z" />
+
+    <!-- 碗口内壁（比碗身深一档，做出里面有东西的层次） -->
+    <path
+        android:fillColor="#A8431A"
+        android:pathData="M28,58a26,6 0 1,0 52,0a26,6 0 1,0 -52,0" />
+
+    <!-- 白米饭：从碗口里冒出来的一个圆丘 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M33,58 C34,46 43,39.5 54,39.5 C65,39.5 74,46 75,58 Z" />
+
+    <!-- 饭的底部压一层浅暖色，避免纯白在暖白背景上糊成一片 -->
+    <path
+        android:fillColor="#F1E4D2"
+        android:pathData="M33,58 C36,54.5 44,52.5 54,52.5 C64,52.5 72,54.5 75,58 Z" />
+
+    <!-- 筷子：一双，斜搁在碗口上，两头探出碗外 -->
+    <group
+        android:rotation="-20"
+        android:pivotX="54"
+        android:pivotY="45"
+        android:translateX="0"
+        android:translateY="0">
+        <path
+            android:fillColor="#8C6239"
+            android:pathData="M27.7,43.3 h52.6 a1.7,1.7 0 0 1 0,3.4 h-52.6 a1.7,1.7 0 0 1 0,-3.4 z" />
+    </group>
+    <group
+        android:rotation="-13"
+        android:pivotX="54"
+        android:pivotY="52"
+        android:translateX="0"
+        android:translateY="0">
+        <path
+            android:fillColor="#7A5430"
+            android:pathData="M27.7,50.3 h52.6 a1.7,1.7 0 0 1 0,3.4 h-52.6 a1.7,1.7 0 0 1 0,-3.4 z" />
+    </group>
+</vector>

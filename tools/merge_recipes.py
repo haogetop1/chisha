@@ -58,7 +58,10 @@ def main():
 
             # ---- v2 加强字段校验 ----
             heat = r.get("heat") or []
-            if heat:
+            if not heat:
+                # 硬性要求：每道菜都必须有火候时间轴
+                errors.append(f"{rid}: 缺火候时间轴 heat（跑 python3 tools/gen_heat.py 生成）")
+            else:
                 if len(heat) < 3:
                     warns.append(f"{rid}: heat 只有 {len(heat)} 行，火候轴太短")
                 for i, h in enumerate(heat):

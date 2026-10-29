@@ -1,151 +1,2250 @@
 [
-{"id":"soup_001","name":"番茄蛋花汤","cuisine":"汤羹小吃","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":15,"servings":2,
-"ingredients":[{"name":"番茄","amount":"2 个","note":"熟透的"},{"name":"鸡蛋","amount":"2 个","note":""},{"name":"葱花","amount":"适量","note":""}],
-"steps":{"select":"番茄选熟透起沙的，汤才浓。","wash":"番茄切块，鸡蛋打散。","cut":"番茄切小块。","blanch":"番茄可烫去皮。","cook":"热锅炒番茄至出沙，加水烧开。","season":"转小火，蛋液细线状淋入，静置 10 秒再搅，蛋花才成片。加盐、香油、葱花。"},
-"tips":"蛋液要细线淋入、静置再搅，蛋花才漂亮。","commonFails":"一下子倒蛋液，结成块；大火滚，蛋花碎；番茄没炒出沙。"},
-
-{"id":"soup_002","name":"紫菜蛋花汤","cuisine":"汤羹小吃","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":10,"servings":2,
-"ingredients":[{"name":"紫菜","amount":"1 小把","note":""},{"name":"鸡蛋","amount":"2 个","note":""},{"name":"虾皮","amount":"1 勺","note":""}],
-"steps":{"select":"紫菜选颜色墨绿、无沙的。","wash":"紫菜撕小块，鸡蛋打散。","cut":"紫菜撕碎。","blanch":"不焯水。","cook":"水开加虾皮煮 2 分钟提鲜。","season":"淋蛋液成蛋花，关火放紫菜（紫菜遇热就熟，久煮发黏），加盐、香油、葱花。"},
-"tips":"紫菜最后放，久煮会烂成糊。","commonFails":"紫菜早放，发黏；蛋液倒太急，成块；不放虾皮，不够鲜。"},
-
-{"id":"soup_003","name":"冬瓜丸子汤","cuisine":"汤羹小吃","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":40,"servings":3,
-"ingredients":[{"name":"冬瓜","amount":"400g","note":""},{"name":"猪肉末","amount":"250g","note":"肥三瘦七"},{"name":"姜","amount":"适量","note":""}],
-"steps":{"select":"冬瓜选表皮有白霜、掂着沉的。","wash":"冬瓜去皮切片，肉末加盐、姜末、淀粉搅上劲。","cut":"冬瓜切 0.5 厘米厚片。","blanch":"不焯水。","cook":"水烧到微沸，用虎口挤丸子下锅。","season":"丸子浮起后加冬瓜煮 8 分钟，加盐、白胡椒、香油、葱花。"},
-"tips":"水只能微沸，大滚会把丸子冲散。","commonFails":"水大滚，丸子碎；冬瓜煮太久，化掉；肉没打上劲，丸子散。"},
-
-{"id":"soup_004","name":"酸辣汤","cuisine":"汤羹小吃","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":30,"servings":3,
-"ingredients":[{"name":"豆腐","amount":"200g","note":"切丝"},{"name":"木耳","amount":"4 朵","note":""},{"name":"鸡蛋","amount":"1 个","note":""},{"name":"香醋","amount":"3 勺","note":"最后放"},{"name":"白胡椒","amount":"1 小勺","note":"辣味来源"}],
-"steps":{"select":"酸辣汤的辣来自白胡椒，不是辣椒。","wash":"豆腐木耳切细丝，鸡蛋打散。","cut":"所有材料切细丝，粗细一致。","blanch":"木耳焯 1 分钟。","cook":"高汤烧开，下豆腐丝木耳丝煮 3 分钟，勾薄芡。","season":"淋蛋液成蛋花，关火加香醋、白胡椒、盐、香油。「酸辣」要平衡，醋和胡椒都要足。"},
-"tips":"醋必须关火后放，否则酸味挥发。芡要薄，汤才顺滑。","commonFails":"醋早放，不酸；胡椒太少，不辣；芡太厚，糊嘴。"},
-
-{"id":"soup_005","name":"玉米排骨汤","cuisine":"汤羹小吃","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":100,"servings":3,
-"ingredients":[{"name":"肋排","amount":"400g","note":""},{"name":"甜玉米","amount":"2 根","note":""},{"name":"胡萝卜","amount":"1 根","note":""}],
-"steps":{"select":"甜玉米选颗粒饱满、掐着出汁的。","wash":"排骨泡水 30 分钟，玉米胡萝卜切段。","cut":"玉米切 5 厘米段，胡萝卜切滚刀块。","blanch":"排骨冷水焯 5 分钟撇沫。","cook":"砂锅放排骨、姜片和开水，小火炖 60 分钟。","season":"加玉米胡萝卜再炖 30 分钟，加盐。汤清甜，不用其他调料。"},
-"tips":"玉米的甜味会渗进汤里，不用加糖。","commonFails":"排骨不焯，汤腥；火大，汤浑；盐早放，肉紧。"},
-
-{"id":"soup_006","name":"山药排骨汤","cuisine":"汤羹小吃","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":100,"servings":3,
-"ingredients":[{"name":"肋排","amount":"400g","note":""},{"name":"铁棍山药","amount":"300g","note":""},{"name":"枸杞","amount":"少许","note":""}],
-"steps":{"select":"铁棍山药粉糯，比菜山药好。","wash":"排骨泡水焯水。山药去皮切段（戴手套防痒）。","cut":"山药切 5 厘米段。","blanch":"排骨冷水焯 5 分钟撇沫。","cook":"砂锅放排骨和开水，小火炖 60 分钟。","season":"加山药再炖 25 分钟，加盐和枸杞。山药要软糯不化。"},
-"tips":"山药后放，久炖会化成糊。","commonFails":"山药早放，化掉；火大，汤浑；盐早放，肉紧。"},
-
-{"id":"soup_007","name":"萝卜牛腩汤","cuisine":"汤羹小吃","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":130,"servings":3,
-"ingredients":[{"name":"牛腩","amount":"500g","note":""},{"name":"白萝卜","amount":"500g","note":""},{"name":"姜","amount":"1 块","note":""},{"name":"八角","amount":"1 个","note":""}],
-"steps":{"select":"牛腩选带筋膜的。白萝卜选掂着沉的。","wash":"牛腩切块焯水，萝卜切滚刀块。","cut":"牛腩切 4 厘米块。","blanch":"牛腩冷水焯 5 分钟撇沫。","cook":"砂锅放牛腩、姜、八角、开水，小火炖 90 分钟。","season":"加萝卜再炖 30 分钟，加盐和白胡椒。萝卜吸饱牛腩汤，比肉还好吃。"},
-"tips":"萝卜后放，久炖会化。牛腩要炖到筷子能扎透。","commonFails":"牛腩不焯，腥；萝卜早放，化掉；炖的时间不够，嚼不动。"},
-
-{"id":"soup_008","name":"鲫鱼豆腐汤","cuisine":"汤羹小吃","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":50,"servings":3,
-"ingredients":[{"name":"鲫鱼","amount":"1 条约 500g","note":"活鱼"},{"name":"嫩豆腐","amount":"300g","note":""},{"name":"姜","amount":"1 块","note":""}],
-"steps":{"select":"鲫鱼要活的，眼睛清亮、鳃鲜红。","wash":"去鳞去内脏，刮净黑膜，冲净血水。","cut":"鱼身两面各划两刀。豆腐切块。","blanch":"鱼用盐和料酒腌 10 分钟，吸干水分后煎至两面金黄——煎过的鱼汤才白。","cook":"冲入开水，加姜片，大火滚 10 分钟至汤色奶白。","season":"加豆腐再煮 5 分钟，加盐、白胡椒、葱花。"},
-"tips":"鱼先煎、用开水、大火滚，汤才奶白。","commonFails":"鱼不煎，汤清；加冷水，汤腥；火小，汤不白。"},
-
-{"id":"soup_009","name":"银耳莲子羹","cuisine":"汤羹小吃","rarity":"common","mealSlots":["breakfast","lunch"],"difficulty":1,"timeMin":90,"servings":3,
-"ingredients":[{"name":"银耳","amount":"1 朵","note":"干银耳"},{"name":"莲子","amount":"30g","note":"去芯"},{"name":"红枣","amount":"5 颗","note":""},{"name":"冰糖","amount":"40g","note":""}],
-"steps":{"select":"银耳选颜色微黄、朵大肉厚的。太白的可能熏过硫。","wash":"银耳泡 2 小时至完全发开，剪去黄色根部。","cut":"银耳撕小朵，越小越易出胶。","blanch":"莲子泡 1 小时去芯，否则发苦。","cook":"银耳加足量水，大火烧开转小火炖 60 分钟至出胶。","season":"加莲子红枣再炖 20 分钟，加冰糖。汤要黏稠挂勺。"},
-"tips":"银耳撕得越碎越出胶。水要一次加够。","commonFails":"银耳没撕碎，不出胶；中途加水，胶质变稀；糖放太早，不易出胶。"},
-
-{"id":"soup_010","name":"红豆沙","cuisine":"汤羹小吃","rarity":"common","mealSlots":["breakfast","lunch"],"difficulty":1,"timeMin":100,"servings":3,
-"ingredients":[{"name":"红豆","amount":"200g","note":"泡 6 小时"},{"name":"冰糖","amount":"60g","note":""},{"name":"陈皮","amount":"1 小片","note":"增香"}],
-"steps":{"select":"红豆选颗粒饱满、颜色深红的。","wash":"红豆泡 6 小时至膨胀。","cut":"不用切。","blanch":"红豆先煮 5 分钟倒掉水，去涩味。","cook":"加足量水和陈皮，小火煮 80 分钟至豆子开花。","season":"用勺子压碎部分豆子让汤变沙，加冰糖煮化。"},
-"tips":"陈皮能去豆腥增香，一小片就够。","commonFails":"豆没泡透，煮不烂；糖早放，豆不易烂；水太少，糊底。"},
-
-{"id":"soup_011","name":"绿豆汤","cuisine":"汤羹小吃","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":50,"servings":3,
-"ingredients":[{"name":"绿豆","amount":"200g","note":""},{"name":"冰糖","amount":"50g","note":""},{"name":"柠檬汁","amount":"几滴","note":"保持绿色"}],
-"steps":{"select":"绿豆选颜色鲜绿、颗粒饱满的。","wash":"绿豆淘洗两遍。","cut":"不用切。","blanch":"想快就用开水泡 20 分钟再煮。","cook":"绿豆加水大火烧开，转小火煮 30 分钟至开花。","season":"加冰糖和几滴柠檬汁，冷藏后吃更解暑。"},
-"tips":"加几滴柠檬汁，绿豆汤才保持碧绿不发红。","commonFails":"用铁锅煮，汤发红发黑；糖早放，豆不易烂；煮太久，成豆沙。"},
-
-{"id":"soup_012","name":"酒酿圆子","cuisine":"汤羹小吃","rarity":"common","mealSlots":["breakfast","lunch"],"difficulty":1,"timeMin":20,"servings":2,
-"ingredients":[{"name":"酒酿","amount":"200g","note":"醪糟"},{"name":"小圆子","amount":"150g","note":"糯米小圆子"},{"name":"鸡蛋","amount":"1 个","note":""},{"name":"枸杞","amount":"少许","note":""}],
-"steps":{"select":"酒酿选米粒完整、酒香浓的。","wash":"枸杞泡软。","cut":"不用切。","blanch":"不焯水。","cook":"水开下小圆子，煮到浮起。","season":"加酒酿煮 1 分钟（久煮酒香会跑），淋蛋液成蛋花，加糖和枸杞。"},
-"tips":"酒酿最后放，煮久了酒香全没。","commonFails":"酒酿煮太久，没酒味；圆子煮过头，烂；糖太多，太甜。"},
-
-{"id":"soup_013","name":"糖水芋圆","cuisine":"汤羹小吃","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":60,"servings":3,
-"ingredients":[{"name":"芋头","amount":"200g","note":""},{"name":"紫薯","amount":"100g","note":""},{"name":"木薯粉","amount":"150g","note":"关键"},{"name":"椰浆","amount":"200ml","note":""}],
-"steps":{"select":"芋圆要用木薯粉，才有 Q 弹口感。","wash":"芋头和紫薯蒸 20 分钟压成泥。","cut":"分别加木薯粉揉成团，搓成长条切小丁。","blanch":"芋圆下开水煮到浮起，再煮 2 分钟，捞出过冰水。","cook":"椰浆加糖和水煮开成糖水。","season":"芋圆放入糖水，冷藏后吃。夏季甜品。"},
-"tips":"木薯粉要趁热揉，才成团。煮好过冰水才 Q。","commonFails":"粉太少，芋圆散；不过冰水，粘连；煮太久，烂。"},
-
-{"id":"soup_014","name":"桃胶银耳羹","cuisine":"汤羹小吃","rarity":"common","mealSlots":["breakfast","lunch"],"difficulty":2,"timeMin":120,"servings":3,
-"ingredients":[{"name":"桃胶","amount":"30g","note":"泡 12 小时"},{"name":"银耳","amount":"半朵","note":""},{"name":"红枣","amount":"5 颗","note":""},{"name":"冰糖","amount":"40g","note":""}],
-"steps":{"select":"桃胶选颗粒大、杂质少的。泡发后会膨胀 10 倍。","wash":"桃胶泡 12 小时，中途换水三次，挑净黑色杂质。银耳泡发撕碎。","cut":"银耳撕小朵。","blanch":"桃胶泡好后要反复冲洗，杂质很多。","cook":"银耳先炖 60 分钟出胶，再加桃胶炖 30 分钟。","season":"加红枣和冰糖再炖 10 分钟。羹要黏稠，桃胶软滑。"},
-"tips":"桃胶泡发时间要够，杂质要挑净。银耳先炖出胶。","commonFails":"桃胶没泡透，硬；杂质没挑净，牙碜；银耳和桃胶同放，银耳不出胶。"},
-
-{"id":"soup_015","name":"卤蛋","cuisine":"汤羹小吃","rarity":"common","mealSlots":["breakfast","lunch","dinner"],"difficulty":1,"timeMin":60,"servings":4,
-"ingredients":[{"name":"鸡蛋","amount":"8 个","note":""},{"name":"生抽","amount":"4 勺","note":""},{"name":"八角桂皮","amount":"各适量","note":""},{"name":"冰糖","amount":"20g","note":""}],
-"steps":{"select":"鸡蛋选新鲜的，煮的时候不易裂。","wash":"鸡蛋洗净。","cut":"不用切。","blanch":"冷水下锅煮 8 分钟，过冷水剥壳。","cook":"生抽、老抽、八角桂皮、冰糖加水烧开成卤汁。","season":"鸡蛋放入卤汁，小火煮 20 分钟，关火浸泡 4 小时以上。泡一夜更入味。"},
-"tips":"煮蛋用冷水下锅不易裂。卤好后浸泡是关键，煮只能上色。","commonFails":"开水下锅，蛋壳裂；不泡，只有表面有味；卤汁太咸。"},
-
-{"id":"soup_016","name":"卤味拼盘","cuisine":"汤羹小吃","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":120,"servings":4,
-"ingredients":[{"name":"鸡爪","amount":"300g","note":""},{"name":"鸭翅","amount":"300g","note":""},{"name":"豆干","amount":"200g","note":""},{"name":"卤料包","amount":"1 包","note":"八角桂皮香叶花椒"}],
-"steps":{"select":"卤味讲究「一锅卤水卤万物」，耐煮的先下，易熟的后下。","wash":"鸡爪鸭翅焯水去血沫，剪去指甲。豆干焯水去豆腥。","cut":"鸡爪去指甲，鸭翅划刀。","blanch":"肉类冷水焯 5 分钟撇沫。","cook":"卤料包加生抽、老抽、冰糖、姜葱和水烧开，熬 20 分钟出味。","season":"先卤鸭翅 30 分钟，再下鸡爪 20 分钟，最后下豆干 15 分钟，关火浸泡 2 小时。"},
-"tips":"卤水越用越香，可以留着下次用。浸泡比煮更重要。","commonFails":"一起下锅，老嫩不一；不浸泡，不入味；卤水太咸。"},
-
-{"id":"soup_017","name":"炸鸡柳","cuisine":"汤羹小吃","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":40,"servings":3,
-"ingredients":[{"name":"鸡胸肉","amount":"400g","note":""},{"name":"面包糠","amount":"100g","note":""},{"name":"鸡蛋","amount":"2 个","note":""},{"name":"面粉","amount":"50g","note":""}],
-"steps":{"select":"鸡胸肉切条，用刀背拍松更嫩。","wash":"鸡胸肉切 1 厘米粗的长条。","cut":"切条后用刀背轻拍，加盐、料酒、胡椒粉腌 20 分钟。","blanch":"不焯水。","cook":"按「面粉→蛋液→面包糠」顺序裹匀，静置 5 分钟。","season":"油温六成热，鸡柳下锅炸 3 分钟至金黄，捞出复炸 30 秒。"},
-"tips":"「粉-蛋-糠」三步不能乱。复炸才酥。","commonFails":"顺序错，裹不上；油温低，面包糠脱落；不复炸，软。"},
-
-{"id":"soup_018","name":"炸薯条","cuisine":"汤羹小吃","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":40,"servings":2,
-"ingredients":[{"name":"土豆","amount":"3 个","note":"大个的"},{"name":"盐","amount":"适量","note":""}],
-"steps":{"select":"土豆选大个、淀粉适中的。太小不好切。","wash":"土豆去皮切 1 厘米粗的长条，泡水洗去淀粉。","cut":"切条后泡水 20 分钟，捞出彻底擦干。","blanch":"土豆条下开水焯 3 分钟，捞出擦干——这一步让薯条外脆内软。","cook":"油温五成热，薯条炸 3 分钟至微黄捞出。","season":"油温升到八成，复炸 2 分钟至金黄。趁热撒盐。"},
-"tips":"焯水+两次油炸，是餐厅级薯条的做法。","commonFails":"不焯水，里面不熟；不擦干，炸时爆油；只炸一次，软。"},
-
-{"id":"soup_019","name":"凉皮","cuisine":"汤羹小吃","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":3,"timeMin":90,"servings":3,
-"ingredients":[{"name":"面粉","amount":"300g","note":"高筋"},{"name":"黄瓜","amount":"1 根","note":""},{"name":"蒜水","amount":"3 勺","note":""},{"name":"香醋","amount":"3 勺","note":""},{"name":"辣椒油","amount":"2 勺","note":""}],
-"steps":{"select":"凉皮要洗面，把面筋洗出来，剩下的淀粉水蒸成皮。","wash":"面粉加水揉成面团，醒 30 分钟。放入水中反复揉洗，洗出面筋，淀粉水静置 4 小时。","cut":"倒掉淀粉水上层的清水，留浓浆。","blanch":"面筋上锅蒸 20 分钟切块。","cook":"平盘刷油，倒一勺淀粉浆晃匀，上锅大火蒸 3 分钟至起大泡。","season":"凉皮切条，加面筋、黄瓜丝、蒜水、醋、辣椒油、盐拌匀。"},
-"tips":"淀粉水要静置沉淀，倒掉上层清水，浆才够浓。","commonFails":"浆太稀，皮不成型；蒸不透，粘；不刷油，揭不下来。"},
-
-{"id":"soup_020","name":"烤红薯","cuisine":"汤羹小吃","rarity":"common","mealSlots":["breakfast","lunch"],"difficulty":1,"timeMin":70,"servings":2,
-"ingredients":[{"name":"红薯","amount":"2 个","note":"选细长的蜜薯"}],
-"steps":{"select":"烤红薯选细长的蜜薯，糖分高、易烤透。粗大的不容易熟。","wash":"红薯刷洗干净，不用去皮。","cut":"不用切。","blanch":"用叉子在表面扎几个孔，防止爆裂。","cook":"烤箱 200 度烤 60 分钟，中途翻面一次。","season":"烤到表皮皱缩、有糖汁渗出就是好了。掰开金黄流蜜。"},
-"tips":"细长的红薯烤得透、糖化好。扎孔防爆。","commonFails":"红薯太粗，中间不熟；不翻面，一面焦；温度低，烤不出糖。"},
-
-{"id":"soup_021","name":"煮玉米","cuisine":"汤羹小吃","rarity":"common","mealSlots":["breakfast","lunch"],"difficulty":1,"timeMin":25,"servings":2,
-"ingredients":[{"name":"甜玉米","amount":"2 根","note":"带皮"},{"name":"盐","amount":"1 小勺","note":""}],
-"steps":{"select":"甜玉米选玉米须新鲜、颗粒饱满、掐着出汁的。","wash":"剥去外层老皮，留最里面两层薄皮。","cut":"切成两段。","blanch":"不焯水。","cook":"冷水下锅，加一小勺盐，水开煮 10 分钟。","season":"煮好后立刻捞出，泡在热水里会变老。趁热吃最甜。"},
-"tips":"留两层内皮一起煮，玉米更甜。加盐能提甜。","commonFails":"煮太久，玉米变老；煮好泡水里，口感发软；剥光皮煮，香味少。"},
-
-{"id":"soup_022","name":"西湖牛肉羹","cuisine":"汤羹小吃","rarity":"signature","mealSlots":["lunch","dinner"],"difficulty":3,"timeMin":40,"servings":3,
-"ingredients":[{"name":"牛里脊","amount":"200g","note":"剁成末"},{"name":"蛋清","amount":"2 个","note":""},{"name":"香菇","amount":"3 朵","note":"切末"},{"name":"香菜","amount":"适量","note":""}],
-"steps":{"select":"牛里脊剁成极细的末，越细越好。","wash":"牛肉末用清水泡 10 分钟去血水，挤干。","cut":"香菇切细末。","blanch":"牛肉末下开水焯 30 秒，捞出冲净，去血沫。","cook":"高汤烧开，下香菇末和牛肉末煮 5 分钟，勾薄芡。","season":"淋入蛋清搅成蛋花，加盐、白胡椒，撒香菜末。羹要清亮不浑。"},
-"tips":"牛肉末要先焯水去血沫，羹才清亮。蛋清最后淋。","commonFails":"牛肉末没焯，羹发黑；芡太厚，成糊；蛋清早放，成块。"},
-
-{"id":"soup_023","name":"老鸭汤","cuisine":"汤羹小吃","rarity":"signature","mealSlots":["dinner"],"difficulty":3,"timeMin":210,"servings":4,
-"ingredients":[{"name":"老鸭","amount":"半只约 800g","note":"两年以上"},{"name":"酸萝卜","amount":"200g","note":"或笋干"},{"name":"姜","amount":"1 块","note":""},{"name":"花椒","amount":"10 粒","note":""}],
-"steps":{"select":"老鸭皮黄、脚粗、胸骨硬，炖汤才香浓。","wash":"鸭块冲洗，冷水焯 5 分钟撇沫。","cut":"斩 4 厘米块。","blanch":"焯水后温水冲净。","cook":"砂锅放鸭块、姜、花椒和开水，大火烧开转小火炖 2 小时。","season":"加酸萝卜再炖 40 分钟，加盐。汤色金黄、鸭肉酥烂。"},
-"tips":"必须用老鸭。花椒能去腥增香。","commonFails":"用嫩鸭，汤寡淡；火大，汤浑；中途加冷水。"},
-
-{"id":"soup_024","name":"猪肚鸡汤","cuisine":"汤羹小吃","rarity":"signature","mealSlots":["dinner"],"difficulty":3,"timeMin":210,"servings":4,
-"ingredients":[{"name":"猪肚","amount":"1 个","note":""},{"name":"鸡","amount":"半只","note":""},{"name":"白胡椒粒","amount":"2 勺","note":"关键"},{"name":"姜","amount":"1 块","note":""}],
-"steps":{"select":"猪肚要选厚实、颜色粉白的。白胡椒粒是这道汤的灵魂。","wash":"猪肚用盐和面粉反复搓洗三遍，翻面撕净油脂。","cut":"猪肚切条，鸡斩块。","blanch":"猪肚焯 3 分钟刮去白膜。鸡块焯 3 分钟撇沫。","cook":"砂锅放猪肚、鸡块、拍碎的白胡椒粒、姜片和开水，小火炖 2.5 小时。","season":"加盐调味。汤色奶白，胡椒辛香暖胃。"},
-"tips":"猪肚必须洗到没异味。白胡椒要拍碎才出味。","commonFails":"猪肚没洗净，有异味；胡椒没拍碎，不够香；火大，汤浑。"},
-
-{"id":"soup_025","name":"双皮奶","cuisine":"汤羹小吃","rarity":"signature","mealSlots":["breakfast","lunch"],"difficulty":3,"timeMin":60,"servings":3,
-"ingredients":[{"name":"水牛奶","amount":"500ml","note":"必须水牛奶"},{"name":"蛋清","amount":"3 个","note":""},{"name":"糖","amount":"50g","note":""}],
-"steps":{"select":"双皮奶必须用水牛奶，脂肪含量高才能结出奶皮。","wash":"牛奶煮到微沸，倒入碗中静置 20 分钟结出第一层奶皮。","cut":"用筷子在奶皮边缘划开一个小口，把牛奶倒出，奶皮留在碗底。","blanch":"倒出的牛奶加糖和蛋清搅匀，过筛两遍。","cook":"沿碗边缓缓倒回碗中，奶皮会浮起来。","season":"盖保鲜膜，中火蒸 12 分钟。关火焖 5 分钟。成品上层有皱皮、下层滑嫩。"},
-"tips":"奶皮要完整留在碗底，倒牛奶时动作要轻。过筛去泡沫。","commonFails":"用普通牛奶，结不出奶皮；火大，蒸出蜂窝；没盖膜，表面粗糙。"},
-
-{"id":"soup_026","name":"姜撞奶","cuisine":"汤羹小吃","rarity":"signature","mealSlots":["breakfast","lunch"],"difficulty":3,"timeMin":20,"servings":2,
-"ingredients":[{"name":"水牛奶","amount":"400ml","note":""},{"name":"老姜","amount":"1 大块","note":"现磨姜汁"},{"name":"糖","amount":"30g","note":""}],
-"steps":{"select":"必须用老姜现磨的姜汁，姜蛋白酶活性才够。水牛奶脂肪高。","wash":"老姜磨成泥，用纱布挤出姜汁，每碗 1 汤匙。","cut":"姜汁要现挤现用，放久了会失效。","blanch":"牛奶加糖加热到 70-80 度（锅边冒小泡）。","cook":"牛奶从 20 厘米高处「撞」入姜汁碗中，不要搅拌。","season":"静置 5 分钟自然凝固。成功的话勺子放上去不会沉。"},
-"tips":"牛奶温度 70-80 度是关键，太烫太凉都不凝固。撞的时候不要搅。","commonFails":"牛奶太烫，不凝；姜汁放久了，失效；搅拌，凝不成。"},
-
-{"id":"soup_027","name":"杨枝甘露","cuisine":"汤羹小吃","rarity":"signature","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":40,"servings":3,
-"ingredients":[{"name":"芒果","amount":"2 个","note":"熟透的"},{"name":"西柚","amount":"半个","note":""},{"name":"西米","amount":"50g","note":""},{"name":"椰浆","amount":"200ml","note":""},{"name":"淡奶油","amount":"100ml","note":""}],
-"steps":{"select":"芒果选熟透香甜的，西柚选红心的。","wash":"西米煮 15 分钟至中间剩小白点，关火焖 10 分钟至透明，过冷水。","cut":"芒果一半打泥一半切丁，西柚剥出果粒。","blanch":"西米要过冷水，才 Q 不粘。","cook":"芒果泥加椰浆、淡奶油、糖拌匀。","season":"加西米、芒果丁、西柚粒，冷藏 1 小时。冰凉酸甜。"},
-"tips":"西米要「煮-焖」两段，才全透明。冷藏后更好吃。","commonFails":"西米煮不透，有白心；不过冷水，粘连；芒果不甜，加糖也不够。"},
-
-{"id":"soup_028","name":"芒果班戟","cuisine":"汤羹小吃","rarity":"signature","mealSlots":["lunch","dinner"],"difficulty":3,"timeMin":60,"servings":3,
-"ingredients":[{"name":"低筋面粉","amount":"80g","note":"皮"},{"name":"牛奶","amount":"250ml","note":""},{"name":"鸡蛋","amount":"2 个","note":""},{"name":"淡奶油","amount":"200ml","note":"打发"},{"name":"芒果","amount":"2 个","note":""}],
-"steps":{"select":"班戟皮要薄而不破，靠低筋面粉和牛奶。","wash":"面粉、牛奶、鸡蛋、糖搅成面糊，过筛两遍，冷藏 30 分钟。","cut":"芒果切长条。淡奶油加糖打发至硬性。","blanch":"面糊必须过筛和冷藏，皮才细腻。","cook":"平底锅刷薄油，倒一勺面糊转成薄饼，小火煎 30 秒至表面凝固即可（只煎一面）。","season":"饼皮放凉，抹奶油放芒果条，四边折起包成方枕形，冷藏 1 小时。"},
-"tips":"饼皮只煎一面，另一面靠余温熟。包好冷藏定型。","commonFails":"面糊没过筛，有颗粒；火大，皮焦；奶油打发不够，包不住。"},
-
-{"id":"soup_029","name":"花胶瑶柱羹","cuisine":"汤羹小吃","rarity":"rare","mealSlots":["dinner"],"difficulty":3,"timeMin":180,"servings":4,
-"ingredients":[{"name":"花胶","amount":"100g","note":"泡发"},{"name":"瑶柱","amount":"8 粒","note":""},{"name":"鸡胸肉","amount":"150g","note":"剁茸"},{"name":"蛋清","amount":"2 个","note":""},{"name":"清鸡汤","amount":"800ml","note":""}],
-"steps":{"select":"花胶选厚身、金黄透亮的。瑶柱选颗粒饱满的。","wash":"花胶泡 12 小时至软，切细丝。瑶柱泡软撕丝，泡发水留着。","cut":"花胶切细丝，鸡胸剁成茸。","blanch":"花胶用姜葱水焯 1 分钟去腥。","cook":"清鸡汤加瑶柱和泡发水烧开，下花胶丝小火煨 60 分钟。","season":"加鸡茸搅散，勾薄芡，淋蛋清成蛋花，加盐和白胡椒。羹要浓稠挂勺、花胶软糯。"},
-"tips":"花胶先煨软再勾芡。蛋清最后淋。","commonFails":"花胶没泡透，硬；芡太厚，糊嘴；蛋清早放，成块。"},
-
-{"id":"soup_030","name":"冰糖燕窝炖雪梨","cuisine":"汤羹小吃","rarity":"rare","mealSlots":["breakfast","dinner"],"difficulty":3,"timeMin":180,"servings":2,
-"ingredients":[{"name":"燕窝","amount":"10g","note":"干燕窝，泡发 4 小时"},{"name":"雪梨","amount":"1 个","note":""},{"name":"冰糖","amount":"30g","note":""},{"name":"枸杞","amount":"少许","note":""}],
-"steps":{"select":"燕窝选盏形完整、纤维清晰的。泡发后会膨胀 6-8 倍。","wash":"燕窝用纯净水泡 4 小时，中途换水两次，用镊子挑净细毛。","cut":"雪梨去皮去核，挖空成梨盅。","blanch":"燕窝泡好后撕成细条，沥干。","cook":"燕窝、冰糖放入梨盅，加少量纯净水，盖好。","season":"隔水小火炖 40 分钟。燕窝要炖到软滑起胶，不能炖化成水。加枸杞再焖 5 分钟。"},
-"tips":"燕窝必须用纯净水泡，自来水会影响发头。小火隔水炖，大火会化。","commonFails":"泡发时间不够，硬；火大，燕窝化成水；没挑毛，牙碜。"}
+ {
+  "id": "soup_001",
+  "name": "番茄蛋花汤",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 1,
+  "timeMin": 15,
+  "servings": 2,
+  "ingredients": [
+   {
+    "name": "番茄",
+    "amount": "2 个",
+    "note": "熟透的"
+   },
+   {
+    "name": "鸡蛋",
+    "amount": "2 个",
+    "note": ""
+   },
+   {
+    "name": "葱花",
+    "amount": "适量",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "番茄选熟透起沙的，汤才浓。",
+   "wash": "番茄切块，鸡蛋打散。",
+   "cut": "番茄切小块。",
+   "blanch": "番茄可烫去皮。",
+   "cook": "热锅炒番茄至出沙，加水烧开。",
+   "season": "转小火，蛋液细线状淋入，静置 10 秒再搅，蛋花才成片。加盐、香油、葱花。"
+  },
+  "tips": "蛋液要细线淋入、静置再搅，蛋花才漂亮。",
+  "commonFails": "一下子倒蛋液，结成块；大火滚，蛋花碎；番茄没炒出沙。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "1.5 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "5 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "2.5 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "1 分钟",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_002",
+  "name": "紫菜蛋花汤",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 1,
+  "timeMin": 10,
+  "servings": 2,
+  "ingredients": [
+   {
+    "name": "紫菜",
+    "amount": "1 小把",
+    "note": ""
+   },
+   {
+    "name": "鸡蛋",
+    "amount": "2 个",
+    "note": ""
+   },
+   {
+    "name": "虾皮",
+    "amount": "1 勺",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "紫菜选颜色墨绿、无沙的。",
+   "wash": "紫菜撕小块，鸡蛋打散。",
+   "cut": "紫菜撕碎。",
+   "blanch": "不焯水。",
+   "cook": "水开加虾皮煮 2 分钟提鲜。",
+   "season": "淋蛋液成蛋花，关火放紫菜（紫菜遇热就熟，久煮发黏），加盐、香油、葱花。"
+  },
+  "tips": "紫菜最后放，久煮会烂成糊。",
+  "commonFails": "紫菜早放，发黏；蛋液倒太急，成块；不放虾皮，不够鲜。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "1 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "3.5 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "2 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "40 秒",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_003",
+  "name": "冬瓜丸子汤",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 2,
+  "timeMin": 40,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "冬瓜",
+    "amount": "400g",
+    "note": ""
+   },
+   {
+    "name": "猪肉末",
+    "amount": "250g",
+    "note": "肥三瘦七"
+   },
+   {
+    "name": "姜",
+    "amount": "适量",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "冬瓜选表皮有白霜、掂着沉的。",
+   "wash": "冬瓜去皮切片，肉末加盐、姜末、淀粉搅上劲。",
+   "cut": "冬瓜切 0.5 厘米厚片。",
+   "blanch": "不焯水。",
+   "cook": "水烧到微沸，用虎口挤丸子下锅。",
+   "season": "丸子浮起后加冬瓜煮 8 分钟，加盐、白胡椒、香油、葱花。"
+  },
+  "tips": "水只能微沸，大滚会把丸子冲散。",
+  "commonFails": "水大滚，丸子碎；冬瓜煮太久，化掉；肉没打上劲，丸子散。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "4 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "14 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "7 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "3 分钟",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_004",
+  "name": "酸辣汤",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 2,
+  "timeMin": 30,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "豆腐",
+    "amount": "200g",
+    "note": "切丝"
+   },
+   {
+    "name": "木耳",
+    "amount": "4 朵",
+    "note": ""
+   },
+   {
+    "name": "鸡蛋",
+    "amount": "1 个",
+    "note": ""
+   },
+   {
+    "name": "香醋",
+    "amount": "3 勺",
+    "note": "最后放"
+   },
+   {
+    "name": "白胡椒",
+    "amount": "1 小勺",
+    "note": "辣味来源"
+   }
+  ],
+  "steps": {
+   "select": "酸辣汤的辣来自白胡椒，不是辣椒。",
+   "wash": "豆腐木耳切细丝，鸡蛋打散。",
+   "cut": "所有材料切细丝，粗细一致。",
+   "blanch": "木耳焯 1 分钟。",
+   "cook": "高汤烧开，下豆腐丝木耳丝煮 3 分钟，勾薄芡。",
+   "season": "淋蛋液成蛋花，关火加香醋、白胡椒、盐、香油。「酸辣」要平衡，醋和胡椒都要足。"
+  },
+  "tips": "醋必须关火后放，否则酸味挥发。芡要薄，汤才顺滑。",
+  "commonFails": "醋早放，不酸；胡椒太少，不辣；芡太厚，糊嘴。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "10 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "5 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "2 分钟",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_005",
+  "name": "玉米排骨汤",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 1,
+  "timeMin": 100,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "肋排",
+    "amount": "400g",
+    "note": ""
+   },
+   {
+    "name": "甜玉米",
+    "amount": "2 根",
+    "note": ""
+   },
+   {
+    "name": "胡萝卜",
+    "amount": "1 根",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "甜玉米选颗粒饱满、掐着出汁的。",
+   "wash": "排骨泡水 30 分钟，玉米胡萝卜切段。",
+   "cut": "玉米切 5 厘米段，胡萝卜切滚刀块。",
+   "blanch": "排骨冷水焯 5 分钟撇沫。",
+   "cook": "砂锅放排骨、姜片和开水，小火炖 60 分钟。",
+   "season": "加玉米胡萝卜再炖 30 分钟，加盐。汤清甜，不用其他调料。"
+  },
+  "tips": "玉米的甜味会渗进汤里，不用加糖。",
+  "commonFails": "排骨不焯，汤腥；火大，汤浑；盐早放，肉紧。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "9 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "30 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "15 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "6 分钟",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_006",
+  "name": "山药排骨汤",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 1,
+  "timeMin": 100,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "肋排",
+    "amount": "400g",
+    "note": ""
+   },
+   {
+    "name": "铁棍山药",
+    "amount": "300g",
+    "note": ""
+   },
+   {
+    "name": "枸杞",
+    "amount": "少许",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "铁棍山药粉糯，比菜山药好。",
+   "wash": "排骨泡水焯水。山药去皮切段（戴手套防痒）。",
+   "cut": "山药切 5 厘米段。",
+   "blanch": "排骨冷水焯 5 分钟撇沫。",
+   "cook": "砂锅放排骨和开水，小火炖 60 分钟。",
+   "season": "加山药再炖 25 分钟，加盐和枸杞。山药要软糯不化。"
+  },
+  "tips": "山药后放，久炖会化成糊。",
+  "commonFails": "山药早放，化掉；火大，汤浑；盐早放，肉紧。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "9 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "30 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "15 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "6 分钟",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_007",
+  "name": "萝卜牛腩汤",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 2,
+  "timeMin": 130,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "牛腩",
+    "amount": "500g",
+    "note": ""
+   },
+   {
+    "name": "白萝卜",
+    "amount": "500g",
+    "note": ""
+   },
+   {
+    "name": "姜",
+    "amount": "1 块",
+    "note": ""
+   },
+   {
+    "name": "八角",
+    "amount": "1 个",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "牛腩选带筋膜的。白萝卜选掂着沉的。",
+   "wash": "牛腩切块焯水，萝卜切滚刀块。",
+   "cut": "牛腩切 4 厘米块。",
+   "blanch": "牛腩冷水焯 5 分钟撇沫。",
+   "cook": "砂锅放牛腩、姜、八角、开水，小火炖 90 分钟。",
+   "season": "加萝卜再炖 30 分钟，加盐和白胡椒。萝卜吸饱牛腩汤，比肉还好吃。"
+  },
+  "tips": "萝卜后放，久炖会化。牛腩要炖到筷子能扎透。",
+  "commonFails": "牛腩不焯，腥；萝卜早放，化掉；炖的时间不够，嚼不动。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "9 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "30 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "15 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "6 分钟",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_008",
+  "name": "鲫鱼豆腐汤",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 2,
+  "timeMin": 50,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "鲫鱼",
+    "amount": "1 条约 500g",
+    "note": "活鱼"
+   },
+   {
+    "name": "嫩豆腐",
+    "amount": "300g",
+    "note": ""
+   },
+   {
+    "name": "姜",
+    "amount": "1 块",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "鲫鱼要活的，眼睛清亮、鳃鲜红。",
+   "wash": "去鳞去内脏，刮净黑膜，冲净血水。",
+   "cut": "鱼身两面各划两刀。豆腐切块。",
+   "blanch": "鱼用盐和料酒腌 10 分钟，吸干水分后煎至两面金黄——煎过的鱼汤才白。",
+   "cook": "冲入开水，加姜片，大火滚 10 分钟至汤色奶白。",
+   "season": "加豆腐再煮 5 分钟，加盐、白胡椒、葱花。"
+  },
+  "tips": "鱼先煎、用开水、大火滚，汤才奶白。",
+  "commonFails": "鱼不煎，汤清；加冷水，汤腥；火小，汤不白。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "5 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "18 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "9 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "3.5 分钟",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_009",
+  "name": "银耳莲子羹",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "breakfast",
+   "lunch"
+  ],
+  "difficulty": 1,
+  "timeMin": 90,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "银耳",
+    "amount": "1 朵",
+    "note": "干银耳"
+   },
+   {
+    "name": "莲子",
+    "amount": "30g",
+    "note": "去芯"
+   },
+   {
+    "name": "红枣",
+    "amount": "5 颗",
+    "note": ""
+   },
+   {
+    "name": "冰糖",
+    "amount": "40g",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "银耳选颜色微黄、朵大肉厚的。太白的可能熏过硫。",
+   "wash": "银耳泡 2 小时至完全发开，剪去黄色根部。",
+   "cut": "银耳撕小朵，越小越易出胶。",
+   "blanch": "莲子泡 1 小时去芯，否则发苦。",
+   "cook": "银耳加足量水，大火烧开转小火炖 60 分钟至出胶。",
+   "season": "加莲子红枣再炖 20 分钟，加冰糖。汤要黏稠挂勺。"
+  },
+  "tips": "银耳撕得越碎越出胶。水要一次加够。",
+  "commonFails": "银耳没撕碎，不出胶；中途加水，胶质变稀；糖放太早，不易出胶。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "9 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "30 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "15 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "6 分钟",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_010",
+  "name": "红豆沙",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "breakfast",
+   "lunch"
+  ],
+  "difficulty": 1,
+  "timeMin": 100,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "红豆",
+    "amount": "200g",
+    "note": "泡 6 小时"
+   },
+   {
+    "name": "冰糖",
+    "amount": "60g",
+    "note": ""
+   },
+   {
+    "name": "陈皮",
+    "amount": "1 小片",
+    "note": "增香"
+   }
+  ],
+  "steps": {
+   "select": "红豆选颗粒饱满、颜色深红的。",
+   "wash": "红豆泡 6 小时至膨胀。",
+   "cut": "不用切。",
+   "blanch": "红豆先煮 5 分钟倒掉水，去涩味。",
+   "cook": "加足量水和陈皮，小火煮 80 分钟至豆子开花。",
+   "season": "用勺子压碎部分豆子让汤变沙，加冰糖煮化。"
+  },
+  "tips": "陈皮能去豆腥增香，一小片就够。",
+  "commonFails": "豆没泡透，煮不烂；糖早放，豆不易烂；水太少，糊底。",
+  "heat": [
+   {
+    "stage": "热锅润油",
+    "fire": "大火",
+    "time": "1 分钟",
+    "signal": "锅烧到微微冒烟再下油，油面浮起细纹就够了"
+   },
+   {
+    "stage": "爆香小料",
+    "fire": "中火",
+    "time": "2 分钟",
+    "signal": "姜蒜或干辣椒下锅，闻到香味、颜色微黄就好，别炸糊"
+   },
+   {
+    "stage": "下红豆煸炒",
+    "fire": "大火",
+    "time": "5 分钟",
+    "signal": "表面变色、边缘微焦，水汽开始收干"
+   },
+   {
+    "stage": "合炒调味",
+    "fire": "中火",
+    "time": "2.5 分钟",
+    "signal": "沿锅边淋入调料，翻匀让每块都裹上味"
+   },
+   {
+    "stage": "收汁出锅",
+    "fire": "大火",
+    "time": "1 分钟",
+    "signal": "汤汁收紧挂住食材就关火，别炒到发干"
+   }
+  ]
+ },
+ {
+  "id": "soup_011",
+  "name": "绿豆汤",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 1,
+  "timeMin": 50,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "绿豆",
+    "amount": "200g",
+    "note": ""
+   },
+   {
+    "name": "冰糖",
+    "amount": "50g",
+    "note": ""
+   },
+   {
+    "name": "柠檬汁",
+    "amount": "几滴",
+    "note": "保持绿色"
+   }
+  ],
+  "steps": {
+   "select": "绿豆选颜色鲜绿、颗粒饱满的。",
+   "wash": "绿豆淘洗两遍。",
+   "cut": "不用切。",
+   "blanch": "想快就用开水泡 20 分钟再煮。",
+   "cook": "绿豆加水大火烧开，转小火煮 30 分钟至开花。",
+   "season": "加冰糖和几滴柠檬汁，冷藏后吃更解暑。"
+  },
+  "tips": "加几滴柠檬汁，绿豆汤才保持碧绿不发红。",
+  "commonFails": "用铁锅煮，汤发红发黑；糖早放，豆不易烂；煮太久，成豆沙。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "5 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "18 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "9 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "3.5 分钟",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_012",
+  "name": "酒酿圆子",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "breakfast",
+   "lunch"
+  ],
+  "difficulty": 1,
+  "timeMin": 20,
+  "servings": 2,
+  "ingredients": [
+   {
+    "name": "酒酿",
+    "amount": "200g",
+    "note": "醪糟"
+   },
+   {
+    "name": "小圆子",
+    "amount": "150g",
+    "note": "糯米小圆子"
+   },
+   {
+    "name": "鸡蛋",
+    "amount": "1 个",
+    "note": ""
+   },
+   {
+    "name": "枸杞",
+    "amount": "少许",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "酒酿选米粒完整、酒香浓的。",
+   "wash": "枸杞泡软。",
+   "cut": "不用切。",
+   "blanch": "不焯水。",
+   "cook": "水开下小圆子，煮到浮起。",
+   "season": "加酒酿煮 1 分钟（久煮酒香会跑），淋蛋液成蛋花，加糖和枸杞。"
+  },
+  "tips": "酒酿最后放，煮久了酒香全没。",
+  "commonFails": "酒酿煮太久，没酒味；圆子煮过头，烂；糖太多，太甜。",
+  "heat": [
+   {
+    "stage": "热锅润油",
+    "fire": "大火",
+    "time": "40 秒",
+    "signal": "锅烧到微微冒烟再下油，油面浮起细纹就够了"
+   },
+   {
+    "stage": "爆香小料",
+    "fire": "中火",
+    "time": "1.5 分钟",
+    "signal": "姜蒜或干辣椒下锅，闻到香味、颜色微黄就好，别炸糊"
+   },
+   {
+    "stage": "下酒酿煸炒",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "表面变色、边缘微焦，水汽开始收干"
+   },
+   {
+    "stage": "合炒调味",
+    "fire": "中火",
+    "time": "1.5 分钟",
+    "signal": "沿锅边淋入调料，翻匀让每块都裹上味"
+   },
+   {
+    "stage": "收汁出锅",
+    "fire": "大火",
+    "time": "40 秒",
+    "signal": "汤汁收紧挂住食材就关火，别炒到发干"
+   }
+  ]
+ },
+ {
+  "id": "soup_013",
+  "name": "糖水芋圆",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 2,
+  "timeMin": 60,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "芋头",
+    "amount": "200g",
+    "note": ""
+   },
+   {
+    "name": "紫薯",
+    "amount": "100g",
+    "note": ""
+   },
+   {
+    "name": "木薯粉",
+    "amount": "150g",
+    "note": "关键"
+   },
+   {
+    "name": "椰浆",
+    "amount": "200ml",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "芋圆要用木薯粉，才有 Q 弹口感。",
+   "wash": "芋头和紫薯蒸 20 分钟压成泥。",
+   "cut": "分别加木薯粉揉成团，搓成长条切小丁。",
+   "blanch": "芋圆下开水煮到浮起，再煮 2 分钟，捞出过冰水。",
+   "cook": "椰浆加糖和水煮开成糖水。",
+   "season": "芋圆放入糖水，冷藏后吃。夏季甜品。"
+  },
+  "tips": "木薯粉要趁热揉，才成团。煮好过冰水才 Q。",
+  "commonFails": "粉太少，芋圆散；不过冰水，粘连；煮太久，烂。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "6.5 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "21 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "10 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "4 分钟",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_014",
+  "name": "桃胶银耳羹",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "breakfast",
+   "lunch"
+  ],
+  "difficulty": 2,
+  "timeMin": 120,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "桃胶",
+    "amount": "30g",
+    "note": "泡 12 小时"
+   },
+   {
+    "name": "银耳",
+    "amount": "半朵",
+    "note": ""
+   },
+   {
+    "name": "红枣",
+    "amount": "5 颗",
+    "note": ""
+   },
+   {
+    "name": "冰糖",
+    "amount": "40g",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "桃胶选颗粒大、杂质少的。泡发后会膨胀 10 倍。",
+   "wash": "桃胶泡 12 小时，中途换水三次，挑净黑色杂质。银耳泡发撕碎。",
+   "cut": "银耳撕小朵。",
+   "blanch": "桃胶泡好后要反复冲洗，杂质很多。",
+   "cook": "银耳先炖 60 分钟出胶，再加桃胶炖 30 分钟。",
+   "season": "加红枣和冰糖再炖 10 分钟。羹要黏稠，桃胶软滑。"
+  },
+  "tips": "桃胶泡发时间要够，杂质要挑净。银耳先炖出胶。",
+  "commonFails": "桃胶没泡透，硬；杂质没挑净，牙碜；银耳和桃胶同放，银耳不出胶。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "9 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "30 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "15 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "6 分钟",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_015",
+  "name": "卤蛋",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 1,
+  "timeMin": 60,
+  "servings": 4,
+  "ingredients": [
+   {
+    "name": "鸡蛋",
+    "amount": "8 个",
+    "note": ""
+   },
+   {
+    "name": "生抽",
+    "amount": "4 勺",
+    "note": ""
+   },
+   {
+    "name": "八角桂皮",
+    "amount": "各适量",
+    "note": ""
+   },
+   {
+    "name": "冰糖",
+    "amount": "20g",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "鸡蛋选新鲜的，煮的时候不易裂。",
+   "wash": "鸡蛋洗净。",
+   "cut": "不用切。",
+   "blanch": "冷水下锅煮 8 分钟，过冷水剥壳。",
+   "cook": "生抽、老抽、八角桂皮、冰糖加水烧开成卤汁。",
+   "season": "鸡蛋放入卤汁，小火煮 20 分钟，关火浸泡 4 小时以上。泡一夜更入味。"
+  },
+  "tips": "煮蛋用冷水下锅不易裂。卤好后浸泡是关键，煮只能上色。",
+  "commonFails": "开水下锅，蛋壳裂；不泡，只有表面有味；卤汁太咸。",
+  "heat": [
+   {
+    "stage": "焯水去腥",
+    "fire": "大火",
+    "time": "5.5 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫再捞出"
+   },
+   {
+    "stage": "爆香 / 炒糖色",
+    "fire": "中火",
+    "time": "5.5 分钟",
+    "signal": "香料出味、糖色炒到枣红就下主料"
+   },
+   {
+    "stage": "加水烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够没过食材，中途别添凉水"
+   },
+   {
+    "stage": "小火慢炖",
+    "fire": "小火",
+    "time": "25 分钟",
+    "signal": "汤面似开非开，筷子能扎透主料"
+   },
+   {
+    "stage": "大火收汁",
+    "fire": "大火",
+    "time": "9.5 分钟",
+    "signal": "汤汁变稠能挂住食材就关火"
+   }
+  ]
+ },
+ {
+  "id": "soup_016",
+  "name": "卤味拼盘",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 2,
+  "timeMin": 120,
+  "servings": 4,
+  "ingredients": [
+   {
+    "name": "鸡爪",
+    "amount": "300g",
+    "note": ""
+   },
+   {
+    "name": "鸭翅",
+    "amount": "300g",
+    "note": ""
+   },
+   {
+    "name": "豆干",
+    "amount": "200g",
+    "note": ""
+   },
+   {
+    "name": "卤料包",
+    "amount": "1 包",
+    "note": "八角桂皮香叶花椒"
+   }
+  ],
+  "steps": {
+   "select": "卤味讲究「一锅卤水卤万物」，耐煮的先下，易熟的后下。",
+   "wash": "鸡爪鸭翅焯水去血沫，剪去指甲。豆干焯水去豆腥。",
+   "cut": "鸡爪去指甲，鸭翅划刀。",
+   "blanch": "肉类冷水焯 5 分钟撇沫。",
+   "cook": "卤料包加生抽、老抽、冰糖、姜葱和水烧开，熬 20 分钟出味。",
+   "season": "先卤鸭翅 30 分钟，再下鸡爪 20 分钟，最后下豆干 15 分钟，关火浸泡 2 小时。"
+  },
+  "tips": "卤水越用越香，可以留着下次用。浸泡比煮更重要。",
+  "commonFails": "一起下锅，老嫩不一；不浸泡，不入味；卤水太咸。",
+  "heat": [
+   {
+    "stage": "焯水去腥",
+    "fire": "大火",
+    "time": "11 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫再捞出"
+   },
+   {
+    "stage": "爆香 / 炒糖色",
+    "fire": "中火",
+    "time": "11 分钟",
+    "signal": "香料出味、糖色炒到枣红就下主料"
+   },
+   {
+    "stage": "加水烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够没过食材，中途别添凉水"
+   },
+   {
+    "stage": "小火慢炖",
+    "fire": "小火",
+    "time": "50 分钟",
+    "signal": "汤面似开非开，筷子能扎透主料"
+   },
+   {
+    "stage": "大火收汁",
+    "fire": "大火",
+    "time": "19 分钟",
+    "signal": "汤汁变稠能挂住食材就关火"
+   }
+  ]
+ },
+ {
+  "id": "soup_017",
+  "name": "炸鸡柳",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 2,
+  "timeMin": 40,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "鸡胸肉",
+    "amount": "400g",
+    "note": ""
+   },
+   {
+    "name": "面包糠",
+    "amount": "100g",
+    "note": ""
+   },
+   {
+    "name": "鸡蛋",
+    "amount": "2 个",
+    "note": ""
+   },
+   {
+    "name": "面粉",
+    "amount": "50g",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "鸡胸肉切条，用刀背拍松更嫩。",
+   "wash": "鸡胸肉切 1 厘米粗的长条。",
+   "cut": "切条后用刀背轻拍，加盐、料酒、胡椒粉腌 20 分钟。",
+   "blanch": "不焯水。",
+   "cook": "按「面粉→蛋液→面包糠」顺序裹匀，静置 5 分钟。",
+   "season": "油温六成热，鸡柳下锅炸 3 分钟至金黄，捞出复炸 30 秒。"
+  },
+  "tips": "「粉-蛋-糠」三步不能乱。复炸才酥。",
+  "commonFails": "顺序错，裹不上；油温低，面包糠脱落；不复炸，软。",
+  "heat": [
+   {
+    "stage": "腌渍入味",
+    "fire": "—",
+    "time": "5 分钟",
+    "signal": "提前腌好，下锅前把表面水分按干"
+   },
+   {
+    "stage": "烧油",
+    "fire": "中火",
+    "time": "3 分钟",
+    "signal": "筷子插进去周围冒密集小泡，约六成热"
+   },
+   {
+    "stage": "初炸定型",
+    "fire": "中火",
+    "time": "5 分钟",
+    "signal": "一面定型再翻面，别频繁翻动"
+   },
+   {
+    "stage": "升温复炸",
+    "fire": "大火",
+    "time": "30 秒",
+    "signal": "油温升到八成热，外壳金黄酥脆就捞"
+   },
+   {
+    "stage": "出锅控油",
+    "fire": "—",
+    "time": "1 分钟",
+    "signal": "捞出放架子上控油，叠放会回软"
+   }
+  ]
+ },
+ {
+  "id": "soup_018",
+  "name": "炸薯条",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 2,
+  "timeMin": 40,
+  "servings": 2,
+  "ingredients": [
+   {
+    "name": "土豆",
+    "amount": "3 个",
+    "note": "大个的"
+   },
+   {
+    "name": "盐",
+    "amount": "适量",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "土豆选大个、淀粉适中的。太小不好切。",
+   "wash": "土豆去皮切 1 厘米粗的长条，泡水洗去淀粉。",
+   "cut": "切条后泡水 20 分钟，捞出彻底擦干。",
+   "blanch": "土豆条下开水焯 3 分钟，捞出擦干——这一步让薯条外脆内软。",
+   "cook": "油温五成热，薯条炸 3 分钟至微黄捞出。",
+   "season": "油温升到八成，复炸 2 分钟至金黄。趁热撒盐。"
+  },
+  "tips": "焯水+两次油炸，是餐厅级薯条的做法。",
+  "commonFails": "不焯水，里面不熟；不擦干，炸时爆油；只炸一次，软。",
+  "heat": [
+   {
+    "stage": "腌渍入味",
+    "fire": "—",
+    "time": "5 分钟",
+    "signal": "提前腌好，下锅前把表面水分按干"
+   },
+   {
+    "stage": "烧油",
+    "fire": "中火",
+    "time": "3 分钟",
+    "signal": "筷子插进去周围冒密集小泡，约六成热"
+   },
+   {
+    "stage": "初炸定型",
+    "fire": "中火",
+    "time": "5 分钟",
+    "signal": "一面定型再翻面，别频繁翻动"
+   },
+   {
+    "stage": "升温复炸",
+    "fire": "大火",
+    "time": "30 秒",
+    "signal": "油温升到八成热，外壳金黄酥脆就捞"
+   },
+   {
+    "stage": "出锅控油",
+    "fire": "—",
+    "time": "1 分钟",
+    "signal": "捞出放架子上控油，叠放会回软"
+   }
+  ]
+ },
+ {
+  "id": "soup_019",
+  "name": "凉皮",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 3,
+  "timeMin": 90,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "面粉",
+    "amount": "300g",
+    "note": "高筋"
+   },
+   {
+    "name": "黄瓜",
+    "amount": "1 根",
+    "note": ""
+   },
+   {
+    "name": "蒜水",
+    "amount": "3 勺",
+    "note": ""
+   },
+   {
+    "name": "香醋",
+    "amount": "3 勺",
+    "note": ""
+   },
+   {
+    "name": "辣椒油",
+    "amount": "2 勺",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "凉皮要洗面，把面筋洗出来，剩下的淀粉水蒸成皮。",
+   "wash": "面粉加水揉成面团，醒 30 分钟。放入水中反复揉洗，洗出面筋，淀粉水静置 4 小时。",
+   "cut": "倒掉淀粉水上层的清水，留浓浆。",
+   "blanch": "面筋上锅蒸 20 分钟切块。",
+   "cook": "平盘刷油，倒一勺淀粉浆晃匀，上锅大火蒸 3 分钟至起大泡。",
+   "season": "凉皮切条，加面筋、黄瓜丝、蒜水、醋、辣椒油、盐拌匀。"
+  },
+  "tips": "淀粉水要静置沉淀，倒掉上层清水，浆才够浓。",
+  "commonFails": "浆太稀，皮不成型；蒸不透，粘；不刷油，揭不下来。",
+  "heat": [
+   {
+    "stage": "烧水上汽",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水要一次加够，蒸锅上汽之后再放食材"
+   },
+   {
+    "stage": "上笼蒸",
+    "fire": "大火足汽",
+    "time": "21 分钟",
+    "signal": "全程别开盖，蒸汽跑了就得补时间"
+   },
+   {
+    "stage": "验熟",
+    "fire": "关火",
+    "time": "—",
+    "signal": "筷子能轻松扎透最厚的地方就是熟了"
+   },
+   {
+    "stage": "焖",
+    "fire": "关火",
+    "time": "2 分钟",
+    "signal": "关火焖一下再揭盖，防回缩塌陷"
+   },
+   {
+    "stage": "调味激香",
+    "fire": "大火",
+    "time": "30 秒",
+    "signal": "淋豉油撒葱花，热油一浇把香味激出来"
+   }
+  ]
+ },
+ {
+  "id": "soup_020",
+  "name": "烤红薯",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "breakfast",
+   "lunch"
+  ],
+  "difficulty": 1,
+  "timeMin": 70,
+  "servings": 2,
+  "ingredients": [
+   {
+    "name": "红薯",
+    "amount": "2 个",
+    "note": "选细长的蜜薯"
+   }
+  ],
+  "steps": {
+   "select": "烤红薯选细长的蜜薯，糖分高、易烤透。粗大的不容易熟。",
+   "wash": "红薯刷洗干净，不用去皮。",
+   "cut": "不用切。",
+   "blanch": "用叉子在表面扎几个孔，防止爆裂。",
+   "cook": "烤箱 200 度烤 60 分钟，中途翻面一次。",
+   "season": "烤到表皮皱缩、有糖汁渗出就是好了。掰开金黄流蜜。"
+  },
+  "tips": "细长的红薯烤得透、糖化好。扎孔防爆。",
+  "commonFails": "红薯太粗，中间不熟；不翻面，一面焦；温度低，烤不出糖。",
+  "heat": [
+   {
+    "stage": "预热烤箱",
+    "fire": "—",
+    "time": "10 分钟",
+    "signal": "提前预热到位，别把食材放进去等升温"
+   },
+   {
+    "stage": "腌制入味",
+    "fire": "—",
+    "time": "15 分钟",
+    "signal": "腌够时间才入味，表面按干"
+   },
+   {
+    "stage": "入炉烤",
+    "fire": "上下火",
+    "time": "24 分钟",
+    "signal": "放中层，中途翻面一次"
+   },
+   {
+    "stage": "上色",
+    "fire": "上火",
+    "time": "7.5 分钟",
+    "signal": "表面金黄、边缘微焦"
+   },
+   {
+    "stage": "出炉静置",
+    "fire": "—",
+    "time": "5 分钟",
+    "signal": "静置几分钟再切，汁水不流失"
+   }
+  ]
+ },
+ {
+  "id": "soup_021",
+  "name": "煮玉米",
+  "cuisine": "汤羹小吃",
+  "rarity": "common",
+  "mealSlots": [
+   "breakfast",
+   "lunch"
+  ],
+  "difficulty": 1,
+  "timeMin": 25,
+  "servings": 2,
+  "ingredients": [
+   {
+    "name": "甜玉米",
+    "amount": "2 根",
+    "note": "带皮"
+   },
+   {
+    "name": "盐",
+    "amount": "1 小勺",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "甜玉米选玉米须新鲜、颗粒饱满、掐着出汁的。",
+   "wash": "剥去外层老皮，留最里面两层薄皮。",
+   "cut": "切成两段。",
+   "blanch": "不焯水。",
+   "cook": "冷水下锅，加一小勺盐，水开煮 10 分钟。",
+   "season": "煮好后立刻捞出，泡在热水里会变老。趁热吃最甜。"
+  },
+  "tips": "留两层内皮一起煮，玉米更甜。加盐能提甜。",
+  "commonFails": "煮太久，玉米变老；煮好泡水里，口感发软；剥光皮煮，香味少。",
+  "heat": [
+   {
+    "stage": "热锅润油",
+    "fire": "大火",
+    "time": "50 秒",
+    "signal": "锅烧到微微冒烟再下油，油面浮起细纹就够了"
+   },
+   {
+    "stage": "爆香小料",
+    "fire": "中火",
+    "time": "1.5 分钟",
+    "signal": "姜蒜或干辣椒下锅，闻到香味、颜色微黄就好，别炸糊"
+   },
+   {
+    "stage": "下甜玉米煸炒",
+    "fire": "大火",
+    "time": "3.5 分钟",
+    "signal": "表面变色、边缘微焦，水汽开始收干"
+   },
+   {
+    "stage": "合炒调味",
+    "fire": "中火",
+    "time": "2 分钟",
+    "signal": "沿锅边淋入调料，翻匀让每块都裹上味"
+   },
+   {
+    "stage": "收汁出锅",
+    "fire": "大火",
+    "time": "50 秒",
+    "signal": "汤汁收紧挂住食材就关火，别炒到发干"
+   }
+  ]
+ },
+ {
+  "id": "soup_022",
+  "name": "西湖牛肉羹",
+  "cuisine": "汤羹小吃",
+  "rarity": "signature",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 3,
+  "timeMin": 40,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "牛里脊",
+    "amount": "200g",
+    "note": "剁成末"
+   },
+   {
+    "name": "蛋清",
+    "amount": "2 个",
+    "note": ""
+   },
+   {
+    "name": "香菇",
+    "amount": "3 朵",
+    "note": "切末"
+   },
+   {
+    "name": "香菜",
+    "amount": "适量",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "牛里脊剁成极细的末，越细越好。",
+   "wash": "牛肉末用清水泡 10 分钟去血水，挤干。",
+   "cut": "香菇切细末。",
+   "blanch": "牛肉末下开水焯 30 秒，捞出冲净，去血沫。",
+   "cook": "高汤烧开，下香菇末和牛肉末煮 5 分钟，勾薄芡。",
+   "season": "淋入蛋清搅成蛋花，加盐、白胡椒，撒香菜末。羹要清亮不浑。"
+  },
+  "tips": "牛肉末要先焯水去血沫，羹才清亮。蛋清最后淋。",
+  "commonFails": "牛肉末没焯，羹发黑；芡太厚，成糊；蛋清早放，成块。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "4 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "14 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "7 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "3 分钟",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_023",
+  "name": "老鸭汤",
+  "cuisine": "汤羹小吃",
+  "rarity": "signature",
+  "mealSlots": [
+   "dinner"
+  ],
+  "difficulty": 3,
+  "timeMin": 210,
+  "servings": 4,
+  "ingredients": [
+   {
+    "name": "老鸭",
+    "amount": "半只约 800g",
+    "note": "两年以上"
+   },
+   {
+    "name": "酸萝卜",
+    "amount": "200g",
+    "note": "或笋干"
+   },
+   {
+    "name": "姜",
+    "amount": "1 块",
+    "note": ""
+   },
+   {
+    "name": "花椒",
+    "amount": "10 粒",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "老鸭皮黄、脚粗、胸骨硬，炖汤才香浓。",
+   "wash": "鸭块冲洗，冷水焯 5 分钟撇沫。",
+   "cut": "斩 4 厘米块。",
+   "blanch": "焯水后温水冲净。",
+   "cook": "砂锅放鸭块、姜、花椒和开水，大火烧开转小火炖 2 小时。",
+   "season": "加酸萝卜再炖 40 分钟，加盐。汤色金黄、鸭肉酥烂。"
+  },
+  "tips": "必须用老鸭。花椒能去腥增香。",
+  "commonFails": "用嫩鸭，汤寡淡；火大，汤浑；中途加冷水。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "9 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "30 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "15 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "6 分钟",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_024",
+  "name": "猪肚鸡汤",
+  "cuisine": "汤羹小吃",
+  "rarity": "signature",
+  "mealSlots": [
+   "dinner"
+  ],
+  "difficulty": 3,
+  "timeMin": 210,
+  "servings": 4,
+  "ingredients": [
+   {
+    "name": "猪肚",
+    "amount": "1 个",
+    "note": ""
+   },
+   {
+    "name": "鸡",
+    "amount": "半只",
+    "note": ""
+   },
+   {
+    "name": "白胡椒粒",
+    "amount": "2 勺",
+    "note": "关键"
+   },
+   {
+    "name": "姜",
+    "amount": "1 块",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "猪肚要选厚实、颜色粉白的。白胡椒粒是这道汤的灵魂。",
+   "wash": "猪肚用盐和面粉反复搓洗三遍，翻面撕净油脂。",
+   "cut": "猪肚切条，鸡斩块。",
+   "blanch": "猪肚焯 3 分钟刮去白膜。鸡块焯 3 分钟撇沫。",
+   "cook": "砂锅放猪肚、鸡块、拍碎的白胡椒粒、姜片和开水，小火炖 2.5 小时。",
+   "season": "加盐调味。汤色奶白，胡椒辛香暖胃。"
+  },
+  "tips": "猪肚必须洗到没异味。白胡椒要拍碎才出味。",
+  "commonFails": "猪肚没洗净，有异味；胡椒没拍碎，不够香；火大，汤浑。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "9 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "30 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "15 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "6 分钟",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_025",
+  "name": "双皮奶",
+  "cuisine": "汤羹小吃",
+  "rarity": "signature",
+  "mealSlots": [
+   "breakfast",
+   "lunch"
+  ],
+  "difficulty": 3,
+  "timeMin": 60,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "水牛奶",
+    "amount": "500ml",
+    "note": "必须水牛奶"
+   },
+   {
+    "name": "蛋清",
+    "amount": "3 个",
+    "note": ""
+   },
+   {
+    "name": "糖",
+    "amount": "50g",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "双皮奶必须用水牛奶，脂肪含量高才能结出奶皮。",
+   "wash": "牛奶煮到微沸，倒入碗中静置 20 分钟结出第一层奶皮。",
+   "cut": "用筷子在奶皮边缘划开一个小口，把牛奶倒出，奶皮留在碗底。",
+   "blanch": "倒出的牛奶加糖和蛋清搅匀，过筛两遍。",
+   "cook": "沿碗边缓缓倒回碗中，奶皮会浮起来。",
+   "season": "盖保鲜膜，中火蒸 12 分钟。关火焖 5 分钟。成品上层有皱皮、下层滑嫩。"
+  },
+  "tips": "奶皮要完整留在碗底，倒牛奶时动作要轻。过筛去泡沫。",
+  "commonFails": "用普通牛奶，结不出奶皮；火大，蒸出蜂窝；没盖膜，表面粗糙。",
+  "heat": [
+   {
+    "stage": "焯水去腥",
+    "fire": "大火",
+    "time": "5.5 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫再捞出"
+   },
+   {
+    "stage": "爆香 / 炒糖色",
+    "fire": "中火",
+    "time": "5.5 分钟",
+    "signal": "香料出味、糖色炒到枣红就下主料"
+   },
+   {
+    "stage": "加水烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够没过食材，中途别添凉水"
+   },
+   {
+    "stage": "小火慢炖",
+    "fire": "小火",
+    "time": "25 分钟",
+    "signal": "汤面似开非开，筷子能扎透主料"
+   },
+   {
+    "stage": "大火收汁",
+    "fire": "大火",
+    "time": "9.5 分钟",
+    "signal": "汤汁变稠能挂住食材就关火"
+   }
+  ]
+ },
+ {
+  "id": "soup_026",
+  "name": "姜撞奶",
+  "cuisine": "汤羹小吃",
+  "rarity": "signature",
+  "mealSlots": [
+   "breakfast",
+   "lunch"
+  ],
+  "difficulty": 3,
+  "timeMin": 20,
+  "servings": 2,
+  "ingredients": [
+   {
+    "name": "水牛奶",
+    "amount": "400ml",
+    "note": ""
+   },
+   {
+    "name": "老姜",
+    "amount": "1 大块",
+    "note": "现磨姜汁"
+   },
+   {
+    "name": "糖",
+    "amount": "30g",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "必须用老姜现磨的姜汁，姜蛋白酶活性才够。水牛奶脂肪高。",
+   "wash": "老姜磨成泥，用纱布挤出姜汁，每碗 1 汤匙。",
+   "cut": "姜汁要现挤现用，放久了会失效。",
+   "blanch": "牛奶加糖加热到 70-80 度（锅边冒小泡）。",
+   "cook": "牛奶从 20 厘米高处「撞」入姜汁碗中，不要搅拌。",
+   "season": "静置 5 分钟自然凝固。成功的话勺子放上去不会沉。"
+  },
+  "tips": "牛奶温度 70-80 度是关键，太烫太凉都不凝固。撞的时候不要搅。",
+  "commonFails": "牛奶太烫，不凝；姜汁放久了，失效；搅拌，凝不成。",
+  "heat": [
+   {
+    "stage": "热锅润油",
+    "fire": "大火",
+    "time": "40 秒",
+    "signal": "锅烧到微微冒烟再下油，油面浮起细纹就够了"
+   },
+   {
+    "stage": "爆香小料",
+    "fire": "中火",
+    "time": "1.5 分钟",
+    "signal": "姜蒜或干辣椒下锅，闻到香味、颜色微黄就好，别炸糊"
+   },
+   {
+    "stage": "下老姜煸炒",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "表面变色、边缘微焦，水汽开始收干"
+   },
+   {
+    "stage": "合炒调味",
+    "fire": "中火",
+    "time": "1.5 分钟",
+    "signal": "沿锅边淋入调料，翻匀让每块都裹上味"
+   },
+   {
+    "stage": "收汁出锅",
+    "fire": "大火",
+    "time": "40 秒",
+    "signal": "汤汁收紧挂住食材就关火，别炒到发干"
+   }
+  ]
+ },
+ {
+  "id": "soup_027",
+  "name": "杨枝甘露",
+  "cuisine": "汤羹小吃",
+  "rarity": "signature",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 2,
+  "timeMin": 40,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "芒果",
+    "amount": "2 个",
+    "note": "熟透的"
+   },
+   {
+    "name": "西柚",
+    "amount": "半个",
+    "note": ""
+   },
+   {
+    "name": "西米",
+    "amount": "50g",
+    "note": ""
+   },
+   {
+    "name": "椰浆",
+    "amount": "200ml",
+    "note": ""
+   },
+   {
+    "name": "淡奶油",
+    "amount": "100ml",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "芒果选熟透香甜的，西柚选红心的。",
+   "wash": "西米煮 15 分钟至中间剩小白点，关火焖 10 分钟至透明，过冷水。",
+   "cut": "芒果一半打泥一半切丁，西柚剥出果粒。",
+   "blanch": "西米要过冷水，才 Q 不粘。",
+   "cook": "芒果泥加椰浆、淡奶油、糖拌匀。",
+   "season": "加西米、芒果丁、西柚粒，冷藏 1 小时。冰凉酸甜。"
+  },
+  "tips": "西米要「煮-焖」两段，才全透明。冷藏后更好吃。",
+  "commonFails": "西米煮不透，有白心；不过冷水，粘连；芒果不甜，加糖也不够。",
+  "heat": [
+   {
+    "stage": "焯水断生",
+    "fire": "大火",
+    "time": "5 分钟",
+    "signal": "水开下料，断生立刻捞出，别煮过头"
+   },
+   {
+    "stage": "过凉",
+    "fire": "冰水",
+    "time": "2 分钟",
+    "signal": "过一遍冰水，口感更脆"
+   },
+   {
+    "stage": "控干水分",
+    "fire": "—",
+    "time": "3 分钟",
+    "signal": "沥干再拌，带水会稀释味道"
+   },
+   {
+    "stage": "调汁",
+    "fire": "—",
+    "time": "4 分钟",
+    "signal": "调料先在小碗里调匀，再倒进去"
+   },
+   {
+    "stage": "拌匀静置",
+    "fire": "—",
+    "time": "7 分钟",
+    "signal": "拌匀后静置入味再上桌"
+   }
+  ]
+ },
+ {
+  "id": "soup_028",
+  "name": "芒果班戟",
+  "cuisine": "汤羹小吃",
+  "rarity": "signature",
+  "mealSlots": [
+   "lunch",
+   "dinner"
+  ],
+  "difficulty": 3,
+  "timeMin": 60,
+  "servings": 3,
+  "ingredients": [
+   {
+    "name": "低筋面粉",
+    "amount": "80g",
+    "note": "皮"
+   },
+   {
+    "name": "牛奶",
+    "amount": "250ml",
+    "note": ""
+   },
+   {
+    "name": "鸡蛋",
+    "amount": "2 个",
+    "note": ""
+   },
+   {
+    "name": "淡奶油",
+    "amount": "200ml",
+    "note": "打发"
+   },
+   {
+    "name": "芒果",
+    "amount": "2 个",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "班戟皮要薄而不破，靠低筋面粉和牛奶。",
+   "wash": "面粉、牛奶、鸡蛋、糖搅成面糊，过筛两遍，冷藏 30 分钟。",
+   "cut": "芒果切长条。淡奶油加糖打发至硬性。",
+   "blanch": "面糊必须过筛和冷藏，皮才细腻。",
+   "cook": "平底锅刷薄油，倒一勺面糊转成薄饼，小火煎 30 秒至表面凝固即可（只煎一面）。",
+   "season": "饼皮放凉，抹奶油放芒果条，四边折起包成方枕形，冷藏 1 小时。"
+  },
+  "tips": "饼皮只煎一面，另一面靠余温熟。包好冷藏定型。",
+  "commonFails": "面糊没过筛，有颗粒；火大，皮焦；奶油打发不够，包不住。",
+  "heat": [
+   {
+    "stage": "擦干表面",
+    "fire": "—",
+    "time": "3 分钟",
+    "signal": "表面水分按干，带水下锅会溅油也煎不上色"
+   },
+   {
+    "stage": "热锅下油",
+    "fire": "中火",
+    "time": "2 分钟",
+    "signal": "油面浮起细纹，约五成热"
+   },
+   {
+    "stage": "下牛奶煎",
+    "fire": "中小火",
+    "time": "5.5 分钟",
+    "signal": "别急着翻动，等底面定型再翻"
+   },
+   {
+    "stage": "翻面煎",
+    "fire": "中小火",
+    "time": "2.5 分钟",
+    "signal": "一面金黄再翻，尽量只翻一次"
+   },
+   {
+    "stage": "出锅",
+    "fire": "—",
+    "time": "—",
+    "signal": "两面金黄、筷子能扎透就是熟了"
+   }
+  ]
+ },
+ {
+  "id": "soup_029",
+  "name": "花胶瑶柱羹",
+  "cuisine": "汤羹小吃",
+  "rarity": "rare",
+  "mealSlots": [
+   "dinner"
+  ],
+  "difficulty": 3,
+  "timeMin": 180,
+  "servings": 4,
+  "ingredients": [
+   {
+    "name": "花胶",
+    "amount": "100g",
+    "note": "泡发"
+   },
+   {
+    "name": "瑶柱",
+    "amount": "8 粒",
+    "note": ""
+   },
+   {
+    "name": "鸡胸肉",
+    "amount": "150g",
+    "note": "剁茸"
+   },
+   {
+    "name": "蛋清",
+    "amount": "2 个",
+    "note": ""
+   },
+   {
+    "name": "清鸡汤",
+    "amount": "800ml",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "花胶选厚身、金黄透亮的。瑶柱选颗粒饱满的。",
+   "wash": "花胶泡 12 小时至软，切细丝。瑶柱泡软撕丝，泡发水留着。",
+   "cut": "花胶切细丝，鸡胸剁成茸。",
+   "blanch": "花胶用姜葱水焯 1 分钟去腥。",
+   "cook": "清鸡汤加瑶柱和泡发水烧开，下花胶丝小火煨 60 分钟。",
+   "season": "加鸡茸搅散，勾薄芡，淋蛋清成蛋花，加盐和白胡椒。羹要浓稠挂勺、花胶软糯。"
+  },
+  "tips": "花胶先煨软再勾芡。蛋清最后淋。",
+  "commonFails": "花胶没泡透，硬；芡太厚，糊嘴；蛋清早放，成块。",
+  "heat": [
+   {
+    "stage": "冷水下料 / 焯水",
+    "fire": "大火",
+    "time": "9 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫"
+   },
+   {
+    "stage": "大火烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够，中途别添凉水"
+   },
+   {
+    "stage": "撇沫转小火",
+    "fire": "小火",
+    "time": "30 分钟",
+    "signal": "汤面保持微沸，汤色慢慢变浓"
+   },
+   {
+    "stage": "下主料",
+    "fire": "中火",
+    "time": "15 分钟",
+    "signal": "易熟的后放，别一开始就全下锅"
+   },
+   {
+    "stage": "调味出锅",
+    "fire": "关火前",
+    "time": "6 分钟",
+    "signal": "盐最后放，尝过再决定加不加"
+   }
+  ]
+ },
+ {
+  "id": "soup_030",
+  "name": "冰糖燕窝炖雪梨",
+  "cuisine": "汤羹小吃",
+  "rarity": "rare",
+  "mealSlots": [
+   "breakfast",
+   "dinner"
+  ],
+  "difficulty": 3,
+  "timeMin": 180,
+  "servings": 2,
+  "ingredients": [
+   {
+    "name": "燕窝",
+    "amount": "10g",
+    "note": "干燕窝，泡发 4 小时"
+   },
+   {
+    "name": "雪梨",
+    "amount": "1 个",
+    "note": ""
+   },
+   {
+    "name": "冰糖",
+    "amount": "30g",
+    "note": ""
+   },
+   {
+    "name": "枸杞",
+    "amount": "少许",
+    "note": ""
+   }
+  ],
+  "steps": {
+   "select": "燕窝选盏形完整、纤维清晰的。泡发后会膨胀 6-8 倍。",
+   "wash": "燕窝用纯净水泡 4 小时，中途换水两次，用镊子挑净细毛。",
+   "cut": "雪梨去皮去核，挖空成梨盅。",
+   "blanch": "燕窝泡好后撕成细条，沥干。",
+   "cook": "燕窝、冰糖放入梨盅，加少量纯净水，盖好。",
+   "season": "隔水小火炖 40 分钟。燕窝要炖到软滑起胶，不能炖化成水。加枸杞再焖 5 分钟。"
+  },
+  "tips": "燕窝必须用纯净水泡，自来水会影响发头。小火隔水炖，大火会化。",
+  "commonFails": "泡发时间不够，硬；火大，燕窝化成水；没挑毛，牙碜。",
+  "heat": [
+   {
+    "stage": "焯水去腥",
+    "fire": "大火",
+    "time": "11 分钟",
+    "signal": "冷水下锅，水开后撇净浮沫再捞出"
+   },
+   {
+    "stage": "爆香 / 炒糖色",
+    "fire": "中火",
+    "time": "11 分钟",
+    "signal": "香料出味、糖色炒到枣红就下主料"
+   },
+   {
+    "stage": "加水烧开",
+    "fire": "大火",
+    "time": "3 分钟",
+    "signal": "水一次加够没过食材，中途别添凉水"
+   },
+   {
+    "stage": "小火慢炖",
+    "fire": "小火",
+    "time": "50 分钟",
+    "signal": "汤面似开非开，筷子能扎透主料"
+   },
+   {
+    "stage": "大火收汁",
+    "fire": "大火",
+    "time": "19 分钟",
+    "signal": "汤汁变稠能挂住食材就关火"
+   }
+  ]
+ }
 ]
