@@ -11,6 +11,7 @@ import com.chisha.app.domain.MealSlot
 import com.chisha.app.domain.Rarity
 import com.chisha.app.domain.Recipe
 import com.chisha.app.domain.RecipeSteps
+import com.chisha.app.domain.Seasoning
 import org.json.JSONArray
 import org.json.JSONObject
 import java.util.zip.CRC32
@@ -47,10 +48,12 @@ object SeedLoader {
             val slots = o.optJSONArray("mealSlots")?.let { a ->
                 (0 until a.length()).map { a.getString(it) }
             } ?: listOf("lunch", "dinner")
-            // 火候表与翻车对照表塞进 stepsJson，省一次数据库迁移
+            // 炒菜流程、翻车对照表、调味料表都塞进 stepsJson，
+            // 省一次数据库迁移（改表结构会触发重建，把用户的做菜记录清掉）
             val stepsObj = o.optJSONObject("steps") ?: JSONObject()
             o.optJSONArray("heat")?.let { stepsObj.put("heat", it) }
             o.optJSONArray("fails")?.let { stepsObj.put("fails", it) }
+            o.optJSONArray("seasoning")?.let { stepsObj.put("seasoning", it) }
             rows.add(
                 RecipeEntity(
                     id = o.getString("id"),
@@ -105,7 +108,8 @@ object SeedLoader {
             tips = e.tips,
             commonFails = e.commonFails,
             heat = parsed.second,
-            fails = parsed.third
+            fails = parsed.third,
+            seasoning = parseSeasoning(e.stepsJson)
         )
     }
 
@@ -120,6 +124,18 @@ object SeedLoader {
                 prep = o.optString("prep"),
                 pick = o.optString("pick"),
                 cut = o.optString("cut")
+            )
+        }
+    }.getOrElse { emptyList() }
+
+    private fun parseSeasoning(text: String): List<Seasoning> = runCatching {
+        val arr = JSONObject(text).optJSONArray("seasoning") ?: return@runCatching emptyList()
+        (0 until arr.length()).mapNotNull { i ->
+            val o = arr.optJSONObject(i) ?: return@mapNotNull null
+            Seasoning(
+                name = o.optString("name"),
+                time = o.optString("when"),
+                why = o.optString("why")
             )
         }
     }.getOrElse { emptyList() }

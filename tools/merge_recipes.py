@@ -68,6 +68,15 @@ def main():
                     for k in ("stage", "fire", "time", "signal"):  # detail 可选，老菜谱没有也能渲染
                         if not (h.get(k) or "").strip():
                             errors.append(f"{rid}: heat[{i}].{k} 为空")
+            seasoning = r.get("seasoning") or []
+            if not seasoning:
+                # 硬性要求：每道菜都必须有调味料投放表
+                errors.append(f"{rid}: 缺调味料表 seasoning（跑 python3 tools/gen_seasoning.py 生成）")
+            else:
+                for i, sc in enumerate(seasoning):
+                    for k in ("name", "when", "why"):
+                        if not (sc.get(k) or "").strip():
+                            errors.append(f"{rid}: seasoning[{i}].{k} 为空")
             fails = r.get("fails") or []
             if fails:
                 if len(fails) < 3:
@@ -106,13 +115,14 @@ def main():
     with_fails = sum(1 for r in all_recipes if r.get("fails"))
     with_prep = sum(1 for r in all_recipes
                     if any((i.get("prep") or "").strip() for i in (r.get("ingredients") or [])))
+    with_seasoning = sum(1 for r in all_recipes if r.get("seasoning"))
     rich_chars = sum(len(json.dumps(r, ensure_ascii=False)) for r in all_recipes if r["_rich"])
     plain_chars = chars - rich_chars
     plain_n = len(all_recipes) - rich
     avg_rich = rich_chars / rich / 1000 if rich else 0
     avg_plain = plain_chars / plain_n / 1000 if plain_n else 0
     print(f"详细度: 加强版 {rich}/{len(all_recipes)} "
-          f"(炒菜流程 {with_heat} · 翻车表 {with_fails} · 食材处理 {with_prep})")
+          f"(炒菜流程 {with_heat} · 调味料表 {with_seasoning} · 翻车表 {with_fails} · 食材处理 {with_prep})")
     if rich and plain_n:
         print(f"  平均字数: 加强版 {avg_rich:.2f}k / 旧版 {avg_plain:.2f}k "
               f"(约 {avg_rich/avg_plain:.1f} 倍)")

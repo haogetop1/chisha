@@ -28,6 +28,7 @@ import androidx.compose.ui.unit.sp
 import com.chisha.app.domain.Recipe
 import com.chisha.app.ui.components.ExtraSection
 import com.chisha.app.ui.components.HeatTimeline
+import com.chisha.app.ui.components.SeasoningTable
 import com.chisha.app.ui.theme.InkPrimary
 import com.chisha.app.ui.theme.InkSecondary
 import com.chisha.app.ui.theme.InkTertiary
@@ -59,6 +60,17 @@ fun TutorialScreen(recipe: Recipe, onFinish: () -> Unit) {
                 subtitle = "按时间顺序走，每一步的火候和判断点都标好了，别凭感觉翻锅。"
             ) {
                 HeatTimeline(recipe)
+            }
+            Spacer(Modifier.height(22.dp))
+        }
+
+        // 做菜的时候也要知道调味料什么时候下锅
+        if (recipe.seasoning.isNotEmpty()) {
+            ExtraSection(
+                title = "调味料什么时候放",
+                subtitle = "按时间先后排好了。盐、醋、味精放错顺序，是最常见的翻车点。"
+            ) {
+                SeasoningTable(recipe)
             }
             Spacer(Modifier.height(22.dp))
         }

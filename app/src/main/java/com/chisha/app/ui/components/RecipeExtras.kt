@@ -209,6 +209,64 @@ fun FailTable(recipe: Recipe) {
     }
 }
 
+/** 调味料投放表：按时间先后列出「什么时候放 → 放什么 → 为什么这时候放」 */
+@Composable
+fun SeasoningTable(recipe: Recipe) {
+    if (recipe.seasoning.isEmpty()) return
+    Column(Modifier.fillMaxWidth()) {
+        recipe.seasoning.forEachIndexed { i, s ->
+            Row(
+                Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 14.dp, vertical = 9.dp),
+                verticalAlignment = Alignment.Top
+            ) {
+                Box(
+                    Modifier
+                        .clip(RoundedCornerShape(5.dp))
+                        .background(Color(0xFFF3E4CF))
+                        .padding(horizontal = 6.dp, vertical = 2.dp)
+                ) {
+                    Text(
+                        s.time,
+                        fontSize = 11.sp,
+                        color = Color(0xFF8A5A22),
+                        fontWeight = FontWeight.Medium,
+                        maxLines = 1
+                    )
+                }
+                Spacer(Modifier.width(9.dp))
+                Column(Modifier.weight(1f)) {
+                    Text(
+                        s.name,
+                        fontSize = 13.5.sp,
+                        fontWeight = FontWeight.SemiBold,
+                        color = InkPrimary
+                    )
+                    if (s.why.isNotBlank()) {
+                        Spacer(Modifier.height(2.dp))
+                        Text(
+                            s.why,
+                            fontSize = 12.sp,
+                            lineHeight = 18.sp,
+                            color = InkSecondary
+                        )
+                    }
+                }
+            }
+            if (i != recipe.seasoning.lastIndex) {
+                Box(
+                    Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 14.dp)
+                        .height(1.dp)
+                        .background(WarmOutline.copy(alpha = 0.5f))
+                )
+            }
+        }
+    }
+}
+
 /** 菜谱页用的小节头 + 卡片容器 */
 @Composable
 fun ExtraSection(title: String, subtitle: String = "", content: @Composable () -> Unit) {

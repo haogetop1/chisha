@@ -36,7 +36,7 @@ object PickingTips {
      * 所以名字里带「汁、酱、粉」这类明显是调味品的后缀时，不许用单字关键词去套
      * ——否则「鱼香汁」会被当成鱼。
      */
-    private val SAUCE_MARK = listOf("汁", "酱", "粉", "精", "露")
+    private val SAUCE_MARK = listOf("汁", "酱", "粉", "精", "露", "油", "水")
 
     /** 按食材名找最贴切的一条挑菜建议；找不到返回 null */
     fun forIngredient(name: String): String? {

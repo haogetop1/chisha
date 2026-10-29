@@ -33,6 +33,7 @@ import com.chisha.app.domain.Recipe
 import com.chisha.app.ui.components.ExtraSection
 import com.chisha.app.ui.components.FailTable
 import com.chisha.app.ui.components.HeatTimeline
+import com.chisha.app.ui.components.SeasoningTable
 import com.chisha.app.ui.components.RarityBadge
 import com.chisha.app.ui.components.RecipeArtwork
 import com.chisha.app.ui.components.SectionTitle
@@ -264,7 +265,30 @@ fun RecipeScreen(
             }
         }
 
-        // v2 加强版菜谱才有的两块：火候时间轴 / 翻车对照表
+        // 「调味料什么时候放」：按时间先后排好的投放表
+        if (recipe.seasoning.isNotEmpty()) {
+            Spacer(Modifier.height(18.dp))
+            SectionTitle("调味料什么时候放")
+            Spacer(Modifier.height(4.dp))
+            Text(
+                "按时间先后排好了。放错顺序是家常菜最常见的翻车点——尤其盐、醋、味精这三样。",
+                fontSize = 11.5.sp,
+                color = InkTertiary,
+                lineHeight = 17.sp
+            )
+            Spacer(Modifier.height(10.dp))
+            Box(
+                Modifier
+                    .fillMaxWidth()
+                    .clip(RoundedCornerShape(16.dp))
+                    .background(WarmSurface)
+                    .padding(vertical = 6.dp)
+            ) {
+                SeasoningTable(recipe)
+            }
+        }
+
+        // v2 加强版菜谱才有的两块：炒菜流程 / 翻车对照表
         if (recipe.heat.isNotEmpty()) {
             ExtraSection(
                 title = "炒菜流程",

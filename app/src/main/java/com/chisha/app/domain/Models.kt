@@ -85,6 +85,9 @@ data class HeatStep(
 /** 翻车对照表的一行 */
 data class FailCase(val symptom: String, val fix: String)
 
+/** 调味料投放表的一行：什么时候放、为什么这时候放 */
+data class Seasoning(val name: String, val time: String, val why: String)
+
 data class Recipe(
     val id: String,
     val name: String,
@@ -99,7 +102,8 @@ data class Recipe(
     val tips: String,
     val commonFails: String,
     val heat: List<HeatStep> = emptyList(),
-    val fails: List<FailCase> = emptyList()
+    val fails: List<FailCase> = emptyList(),
+    val seasoning: List<Seasoning> = emptyList()
 ) {
     val fitsBreakfast: Boolean get() = mealSlots.contains(MealSlot.BREAKFAST)
     val rarityLabel: String get() = rarity.label
