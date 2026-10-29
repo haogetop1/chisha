@@ -13,7 +13,7 @@
 | 文件 | 改动 |
 | --- | --- |
 | `app/src/main/res/drawable/ic_launcher_background.xml` | **新增**。暖白 `#FFF8F0`（和 App 的 WarmBg 一致），中心一圈极淡暖晕，避免白碗糊在白底上 |
-| `app/src/main/res/drawable/ic_launcher_foreground.xml` | **新增**。碗身 `#C8551F`（品牌赭石色）+ 碗口内壁深色 + 白色饭丘 + 一双斜搁的木色筷子 |
+| `app/src/main/res/drawable/ic_launcher_foreground.xml` | **新增**。碗身 `#C8551F`（品牌赭石色）+ 碗口内壁深色 + 白色饭丘 + 一双木色筷子。碗占 x 22..52，筷子**平放**在右侧 x 58..84，中间留约 6dp 空隙（第一版搁在碗口上 → 第二版立在碗旁 → 最终版按反馈改成平放） |
 | `app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml` / `ic_launcher_round.xml` | **新增**。自适应图标装配 |
 | `app/src/main/AndroidManifest.xml` | 补 `android:icon` / `android:roundIcon` |
 
