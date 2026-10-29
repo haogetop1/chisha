@@ -71,8 +71,16 @@ data class Ingredient(
     val cut: String = ""
 )
 
-/** 火候时间轴的一行 */
-data class HeatStep(val stage: String, val fire: String, val time: String, val signal: String)
+/** 炒菜流程的一行：按时间流走，每一步说清「做什么 + 多大火 + 多久 + 怎么判断」 */
+data class HeatStep(
+    val stage: String,
+    val fire: String,
+    val time: String,
+    /** 这一步具体做什么（时间流的主体） */
+    val detail: String = "",
+    /** 怎么判断这一步到位了 */
+    val signal: String = ""
+)
 
 /** 翻车对照表的一行 */
 data class FailCase(val symptom: String, val fix: String)

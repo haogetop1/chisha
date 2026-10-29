@@ -141,6 +141,7 @@ object SeedLoader {
                     stage = h.optString("stage"),
                     fire = h.optString("fire"),
                     time = h.optString("time"),
+                    detail = h.optString("detail"),
                     signal = h.optString("signal")
                 )
             }

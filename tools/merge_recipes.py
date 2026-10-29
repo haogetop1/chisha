@@ -7,7 +7,7 @@
   ingredients[{name,amount,note,prep}], steps{select,wash,cut,blanch,cook,season},
   tips, commonFails }
 v2 加强字段（可选，但推荐）：
-  heat[{stage,fire,time,signal}]  火候时间轴
+  heat[{stage,fire,time,signal}]  炒菜流程
   fails[{symptom,fix}]            翻车对照表
   ingredients[].prep              这味食材买回来怎么处理
 """
@@ -59,13 +59,13 @@ def main():
             # ---- v2 加强字段校验 ----
             heat = r.get("heat") or []
             if not heat:
-                # 硬性要求：每道菜都必须有火候时间轴
-                errors.append(f"{rid}: 缺火候时间轴 heat（跑 python3 tools/gen_heat.py 生成）")
+                # 硬性要求：每道菜都必须有炒菜流程
+                errors.append(f"{rid}: 缺炒菜流程 heat（跑 python3 tools/gen_heat.py 生成）")
             else:
                 if len(heat) < 3:
-                    warns.append(f"{rid}: heat 只有 {len(heat)} 行，火候轴太短")
+                    warns.append(f"{rid}: heat 只有 {len(heat)} 行，流程步骤太少")
                 for i, h in enumerate(heat):
-                    for k in ("stage", "fire", "time", "signal"):
+                    for k in ("stage", "fire", "time", "signal"):  # detail 可选，老菜谱没有也能渲染
                         if not (h.get(k) or "").strip():
                             errors.append(f"{rid}: heat[{i}].{k} 为空")
             fails = r.get("fails") or []
@@ -112,7 +112,7 @@ def main():
     avg_rich = rich_chars / rich / 1000 if rich else 0
     avg_plain = plain_chars / plain_n / 1000 if plain_n else 0
     print(f"详细度: 加强版 {rich}/{len(all_recipes)} "
-          f"(火候轴 {with_heat} · 翻车表 {with_fails} · 食材处理 {with_prep})")
+          f"(炒菜流程 {with_heat} · 翻车表 {with_fails} · 食材处理 {with_prep})")
     if rich and plain_n:
         print(f"  平均字数: 加强版 {avg_rich:.2f}k / 旧版 {avg_plain:.2f}k "
               f"(约 {avg_rich/avg_plain:.1f} 倍)")

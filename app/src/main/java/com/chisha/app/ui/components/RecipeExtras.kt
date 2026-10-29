@@ -36,7 +36,7 @@ private fun fireColor(fire: String): Color = when {
     else -> Color(0xFF8A7A6A)
 }
 
-/** 火候时间轴：做菜时抬头就能对上「现在该多大火、看什么信号」 */
+/** 炒菜流程：做菜时抬头就能对上「现在该多大火、看什么信号」 */
 @Composable
 fun HeatTimeline(recipe: Recipe) {
     if (recipe.heat.isEmpty()) return
@@ -62,7 +62,7 @@ fun HeatTimeline(recipe: Recipe) {
                         Box(
                             Modifier
                                 .width(2.dp)
-                                .height(46.dp)
+                                .height(84.dp)
                                 .background(WarmOutline.copy(alpha = 0.7f))
                         )
                     }
@@ -94,14 +94,37 @@ fun HeatTimeline(recipe: Recipe) {
                             }
                         }
                     }
-                    if (h.signal.isNotBlank()) {
+                    if (h.detail.isNotBlank()) {
                         Spacer(Modifier.height(3.dp))
                         Text(
-                            h.signal,
-                            fontSize = 12.5.sp,
-                            lineHeight = 19.sp,
-                            color = InkSecondary
+                            h.detail,
+                            fontSize = 13.sp,
+                            lineHeight = 20.sp,
+                            color = InkPrimary
                         )
+                    }
+                    if (h.signal.isNotBlank()) {
+                        Spacer(Modifier.height(3.dp))
+                        Row(verticalAlignment = Alignment.Top) {
+                            Text(
+                                "判断",
+                                fontSize = 10.5.sp,
+                                color = Color.White,
+                                fontWeight = FontWeight.Bold,
+                                modifier = Modifier
+                                    .clip(RoundedCornerShape(4.dp))
+                                    .background(Color(0xFF3F8F7B))
+                                    .padding(horizontal = 5.dp, vertical = 1.dp)
+                            )
+                            Spacer(Modifier.width(6.dp))
+                            Text(
+                                h.signal,
+                                fontSize = 12.sp,
+                                lineHeight = 18.sp,
+                                color = InkSecondary,
+                                modifier = Modifier.weight(1f)
+                            )
+                        }
                     }
                     Spacer(Modifier.height(14.dp))
                 }

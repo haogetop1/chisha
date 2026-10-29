@@ -55,8 +55,8 @@ fun TutorialScreen(recipe: Recipe, onFinish: () -> Unit) {
         // 火候轴放最前面：真做起来的时候，抬头第一眼要看的就是火多大
         if (recipe.heat.isNotEmpty()) {
             ExtraSection(
-                title = "火候节奏",
-                subtitle = "照着这个走，别凭感觉翻锅。"
+                title = "炒菜流程",
+                subtitle = "按时间顺序走，每一步的火候和判断点都标好了，别凭感觉翻锅。"
             ) {
                 HeatTimeline(recipe)
             }

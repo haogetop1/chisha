@@ -267,8 +267,8 @@ fun RecipeScreen(
         // v2 加强版菜谱才有的两块：火候时间轴 / 翻车对照表
         if (recipe.heat.isNotEmpty()) {
             ExtraSection(
-                title = "火候时间轴",
-                subtitle = "左边圆点的颜色就是火的大小，做的时候抬头对一下就行。"
+                title = "炒菜流程",
+                subtitle = "按时间顺序走一遍：每一步该做什么、多大火、多久、怎么判断到位。左边圆点的颜色就是火的大小。"
             ) {
                 HeatTimeline(recipe)
             }
