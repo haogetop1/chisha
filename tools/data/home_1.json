@@ -1,0 +1,126 @@
+[
+{"id":"home_001","name":"西红柿鸡蛋面","cuisine":"家常菜","rarity":"common","mealSlots":["breakfast","lunch","dinner"],"difficulty":1,"timeMin":20,"servings":2,
+"ingredients":[{"name":"面条","amount":"200g","note":""},{"name":"番茄","amount":"2 个","note":"熟透的"},{"name":"鸡蛋","amount":"2 个","note":""},{"name":"葱花","amount":"适量","note":""}],
+"steps":{"select":"番茄选熟透起沙的，汤才浓。","wash":"番茄洗净切块，鸡蛋打散。","cut":"番茄切小块，越小越易出汁。","blanch":"番茄可先用开水烫去皮，口感更顺。","cook":"热油炒蛋盛出，余油下番茄炒到出沙变糊。","season":"加水烧开，下面条煮熟，回鸡蛋，加盐和少许糖，撒葱花。"},
+"tips":"番茄一定要炒到出沙，汤才浓。","commonFails":"番茄没炒出汁，汤寡淡；面煮软；盐放太多。"},
+
+{"id":"home_002","name":"青椒土豆丝","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":15,"servings":2,
+"ingredients":[{"name":"土豆","amount":"2 个","note":"黄心"},{"name":"青椒","amount":"1 个","note":""},{"name":"蒜","amount":"3 瓣","note":""},{"name":"醋","amount":"1 勺","note":""}],
+"steps":{"select":"土豆选黄心、表皮光滑的，脆。","wash":"土豆去皮切丝，泡水洗去淀粉。","cut":"切细丝，越细越脆。","blanch":"怕不熟可焯 20 秒，捞出过凉。","cook":"热锅下油，蒜末炒香。","season":"下土豆丝大火快炒 1 分钟，加青椒丝、盐、醋，翻匀出锅。"},
+"tips":"洗掉淀粉、大火快炒、出锅前放醋。","commonFails":"没洗淀粉，黏成坨；火小，变土豆泥。"},
+
+{"id":"home_003","name":"蒜蓉西兰花","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":15,"servings":2,
+"ingredients":[{"name":"西兰花","amount":"1 棵","note":""},{"name":"蒜","amount":"5 瓣","note":""},{"name":"蚝油","amount":"1 勺","note":""}],
+"steps":{"select":"西兰花选花球紧实、颜色深绿的。","wash":"掰小朵，用淡盐水泡 10 分钟去虫。","cut":"小朵均匀，易熟。","blanch":"水开加盐和油，焯 1 分钟捞出过凉。","cook":"热锅下油，蒜末爆香。","season":"倒西兰花大火翻炒 30 秒，加蚝油和盐，翻匀出锅。"},
+"tips":"焯水时加油，颜色才翠绿。","commonFails":"焯太久，发黄；火小，出水；蒜炸糊。"},
+
+{"id":"home_004","name":"蚝油杏鲍菇","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":20,"servings":2,
+"ingredients":[{"name":"杏鲍菇","amount":"3 根","note":""},{"name":"蚝油","amount":"2 勺","note":""},{"name":"蒜","amount":"3 瓣","note":""}],
+"steps":{"select":"杏鲍菇选菌柄粗壮、按着硬实的。","wash":"冲净擦干。","cut":"切 0.5 厘米厚片，表面划十字花刀更入味。","blanch":"不焯水。","cook":"平底锅少油，杏鲍菇片煎到两面金黄出水。","season":"下蒜末炒香，加蚝油和少许水，大火收汁裹匀。"},
+"tips":"先煎出水分，口感才像鲍鱼。","commonFails":"没煎干，水汪汪；煎太干，发柴；蚝油放太多，太咸。"},
+
+{"id":"home_005","name":"手撕鸡","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":50,"servings":3,
+"ingredients":[{"name":"鸡腿","amount":"4 只","note":""},{"name":"姜葱","amount":"各适量","note":""},{"name":"生抽","amount":"2 勺","note":""},{"name":"辣椒油","amount":"1 勺","note":""}],
+"steps":{"select":"鸡腿选皮黄肉厚的。","wash":"鸡腿冲净。","cut":"整只煮，煮好再撕。","blanch":"鸡腿冷水下锅加姜葱，水开转小火煮 15 分钟，关火焖 10 分钟。","cook":"捞出立刻泡冰水 10 分钟，鸡皮才爽脆。","season":"手撕成条，加生抽、辣椒油、蒜末、香菜、熟芝麻拌匀。"},
+"tips":"泡冰水是鸡皮爽脆的关键。","commonFails":"大火煮，肉柴；不泡冰水，皮软；撕太碎，没口感。"},
+
+{"id":"home_006","name":"可乐鸡翅","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":35,"servings":2,
+"ingredients":[{"name":"鸡翅中","amount":"10 个","note":""},{"name":"可乐","amount":"1 罐 330ml","note":"普通可乐，不要无糖"},{"name":"生抽","amount":"2 勺","note":""},{"name":"姜","amount":"3 片","note":""}],
+"steps":{"select":"鸡翅选大小均匀、皮色白净的。","wash":"鸡翅冲净，两面划刀，吸干水分。","cut":"划两刀帮助入味。","blanch":"冷水下锅焯 2 分钟撇沫，捞出冲净。","cook":"锅里少油，鸡翅煎到两面金黄。","season":"倒可乐、生抽、姜片，大火烧开转中火焖 15 分钟，最后大火收汁至浓稠。"},
+"tips":"收汁时要不停翻动，糖分易糊。用无糖可乐就没有黏稠感。","commonFails":"不收汁，颜色淡；火大，糖烧焦；用无糖可乐，挂不住汁。"},
+
+{"id":"home_007","name":"红烧鸡腿","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":45,"servings":3,
+"ingredients":[{"name":"鸡腿","amount":"4 只","note":""},{"name":"生抽老抽","amount":"各 1 勺","note":""},{"name":"冰糖","amount":"20g","note":""},{"name":"八角","amount":"1 个","note":""}],
+"steps":{"select":"鸡腿选皮黄、肉厚的。","wash":"冲净，两面划刀。","cut":"划刀便于入味。","blanch":"冷水下锅焯 3 分钟撇沫。","cook":"锅里炒糖色，鸡腿下锅裹匀上色。","season":"加生抽老抽、八角、姜片和水没过，小火焖 25 分钟，大火收汁。"},
+"tips":"糖色炒到枣红就下鸡腿，再炒就苦。","commonFails":"糖色炒糊，发苦；火大，皮破；不收汁，味道淡。"},
+
+{"id":"home_008","name":"土豆炖牛肉","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":100,"servings":3,
+"ingredients":[{"name":"牛腩","amount":"500g","note":"带筋膜的"},{"name":"土豆","amount":"2 个","note":""},{"name":"番茄","amount":"1 个","note":"提酸"},{"name":"八角桂皮","amount":"各适量","note":""}],
+"steps":{"select":"牛腩选带筋膜、肥瘦相间的，炖出来才烂。","wash":"牛腩切块，冷水下锅焯 5 分钟撇沫。","cut":"切 4 厘米块，土豆切滚刀块。","blanch":"焯水后温水冲净，别用冷水。","cook":"锅里炒香八角桂皮姜片，下牛肉块煸炒，加生抽老抽和开水没过。","season":"小火炖 60 分钟，加土豆和番茄再炖 25 分钟至土豆软糯，收汁。"},
+"tips":"加热水不加冷水，肉才不紧缩。土豆后放，久炖会化。","commonFails":"加冷水，牛肉发柴；土豆早放，化在汤里；炖的时间不够，嚼不动。"},
+
+{"id":"home_009","name":"冬瓜排骨汤","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":90,"servings":3,
+"ingredients":[{"name":"肋排","amount":"400g","note":""},{"name":"冬瓜","amount":"400g","note":""},{"name":"姜","amount":"3 片","note":""},{"name":"枸杞","amount":"少许","note":""}],
+"steps":{"select":"排骨选小排，肉厚骨细。冬瓜选表皮有白霜、掂着沉的。","wash":"排骨泡水 30 分钟去血水。冬瓜去皮切块。","cut":"排骨斩段，冬瓜切 3 厘米块。","blanch":"排骨冷水下锅焯 5 分钟撇沫。","cook":"砂锅放排骨、姜片和开水，大火烧开转小火炖 60 分钟。","season":"加冬瓜再炖 20 分钟，加盐、枸杞。冬瓜透明就好，别炖化。"},
+"tips":"冬瓜后放，20 分钟足够。","commonFails":"冬瓜早放，化成水；不焯水，汤腥；火大，汤浑。"},
+
+{"id":"home_010","name":"洋葱炒鸡蛋","cuisine":"家常菜","rarity":"common","mealSlots":["breakfast","lunch","dinner"],"difficulty":1,"timeMin":12,"servings":2,
+"ingredients":[{"name":"洋葱","amount":"1 个","note":""},{"name":"鸡蛋","amount":"3 个","note":""}],
+"steps":{"select":"洋葱选表皮干燥、掂着沉的。紫洋葱更甜。","wash":"洋葱去皮切丝。","cut":"切 0.3 厘米粗的丝。","blanch":"不焯水。","cook":"鸡蛋炒成块盛出。","season":"余油下洋葱炒到变软透明，回鸡蛋，加盐和少许生抽翻匀。"},
+"tips":"洋葱炒到透明才甜，不要生脆。","commonFails":"洋葱炒太生，辣；炒太久，发黑；鸡蛋炒老。"},
+
+{"id":"home_011","name":"韭菜炒鸡蛋","cuisine":"家常菜","rarity":"common","mealSlots":["breakfast","lunch","dinner"],"difficulty":1,"timeMin":12,"servings":2,
+"ingredients":[{"name":"韭菜","amount":"250g","note":""},{"name":"鸡蛋","amount":"3 个","note":""}],
+"steps":{"select":"韭菜选叶宽、根白、掐着嫩的。","wash":"洗净后彻底甩干，带水会出汤。","cut":"切 4 厘米段。","blanch":"不焯水。","cook":"鸡蛋炒成块盛出。","season":"大火下韭菜炒 30 秒，回鸡蛋加盐，翻匀立刻出锅。"},
+"tips":"韭菜遇热就软，30 秒够。","commonFails":"炒太久，出水发黄；盐早放，出水；没甩干，一锅汤。"},
+
+{"id":"home_012","name":"蒜苔炒腊肠","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":18,"servings":2,
+"ingredients":[{"name":"蒜苔","amount":"300g","note":""},{"name":"腊肠","amount":"2 根","note":""},{"name":"干辣椒","amount":"3 个","note":""}],
+"steps":{"select":"蒜苔选细嫩、苔苞未开的。","wash":"蒜苔掐去老根，腊肠温水洗后蒸 10 分钟。","cut":"蒜苔切 4 厘米段，腊肠斜切片。","blanch":"蒜苔焯 40 秒过凉。","cook":"锅不放油，腊肠小火煸出油。","season":"下干辣椒、蒜苔大火炒 1 分钟，加少许生抽翻匀。"},
+"tips":"腊肠先蒸后炒才不硬。","commonFails":"腊肠直接炒，硬；蒜苔炒生；放盐，太咸。"},
+
+{"id":"home_013","name":"干煸豆角","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":25,"servings":2,
+"ingredients":[{"name":"豆角","amount":"400g","note":"四季豆或豇豆"},{"name":"肉末","amount":"80g","note":""},{"name":"干辣椒","amount":"5 个","note":""}],
+"steps":{"select":"豆角选细长、掐着脆的。","wash":"掐头去尾撕筋，彻底擦干。","cut":"掰 5 厘米段。","blanch":"怕炸油可焯 1 分钟后擦干。","cook":"中火多油，豆角下锅煸 5 分钟至表皮起皱。","season":"下肉末、干辣椒炒香，加生抽和盐翻匀。"},
+"tips":"豆角必须炒熟，半生会中毒。","commonFails":"没炒熟，肚子疼；没擦干，炸油；火太大，外焦里生。"},
+
+{"id":"home_014","name":"红烧茄子","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":25,"servings":2,
+"ingredients":[{"name":"长茄子","amount":"2 根","note":""},{"name":"蒜","amount":"4 瓣","note":""},{"name":"生抽","amount":"2 勺","note":""},{"name":"糖","amount":"1 勺","note":""}],
+"steps":{"select":"茄子选表皮发亮、按着回弹的。","wash":"茄子上锅蒸 8 分钟至软——蒸代替油炸，省油又健康。","cut":"撕成条或切滚刀块。","blanch":"蒸是最好的预处理，能减少一半吸油量。","cook":"热锅下油，蒜末爆香。","season":"下茄子翻炒，加生抽、糖和少许水，烧 3 分钟收汁，撒葱花。"},
+"tips":"先蒸后烧，茄子不吸油也不烂。","commonFails":"直接下锅，吸光油；火大，茄皮发黑；不收汁，汤多。"},
+
+{"id":"home_015","name":"上汤娃娃菜","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":20,"servings":2,
+"ingredients":[{"name":"娃娃菜","amount":"2 棵","note":""},{"name":"皮蛋","amount":"1 个","note":""},{"name":"咸蛋","amount":"1 个","note":""},{"name":"蒜","amount":"4 瓣","note":""}],
+"steps":{"select":"娃娃菜选个头小、叶片嫩的。","wash":"纵向剖成四瓣，洗净。","cut":"剖开不切断，保持形状。","blanch":"娃娃菜下开水焯 1 分钟，捞出摆盘。","cook":"锅里下油，蒜末爆香，加皮蛋丁、咸蛋丁炒香。","season":"加高汤烧开，浇在娃娃菜上。汤要浓白，蒜香突出。"},
+"tips":"皮蛋咸蛋要炒香再煮，汤才鲜。","commonFails":"蛋没炒香，汤寡淡；娃娃菜焯过头，软烂；汤太咸。"},
+
+{"id":"home_016","name":"番茄炖牛腩","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":110,"servings":3,
+"ingredients":[{"name":"牛腩","amount":"600g","note":""},{"name":"番茄","amount":"3 个","note":"熟透的"},{"name":"洋葱","amount":"半个","note":""},{"name":"番茄酱","amount":"2 勺","note":""}],
+"steps":{"select":"牛腩选带筋膜的。番茄选熟透起沙的。","wash":"牛腩切块焯水。番茄去皮切块。","cut":"牛腩切 4 厘米块。","blanch":"牛腩冷水焯 5 分钟撇沫。","cook":"锅里炒香洋葱，下番茄炒到出沙，加番茄酱炒匀。","season":"下牛腩，加开水没过，小火炖 90 分钟至牛腩酥烂，加盐收汁。"},
+"tips":"番茄要炒到出沙，汤才浓。番茄酱能加深颜色和味道。","commonFails":"番茄没炒透，汤寡淡；加冷水，肉柴；炖的时间不够。"},
+
+{"id":"home_017","name":"土豆丝饼","cuisine":"家常菜","rarity":"common","mealSlots":["breakfast","lunch"],"difficulty":1,"timeMin":25,"servings":2,
+"ingredients":[{"name":"土豆","amount":"2 个","note":""},{"name":"面粉","amount":"3 勺","note":""},{"name":"鸡蛋","amount":"1 个","note":""},{"name":"葱花","amount":"适量","note":""}],
+"steps":{"select":"土豆选黄心、淀粉适中的。","wash":"土豆去皮擦成细丝，不洗淀粉（要靠淀粉粘合）。","cut":"擦丝越细越好。","blanch":"不焯水。","cook":"土豆丝加面粉、鸡蛋、盐、葱花拌成糊。","season":"平底锅少油，舀一勺摊成小饼，中小火煎至两面金黄。"},
+"tips":"不洗淀粉，饼才成型。火要中小，不然外焦里生。","commonFails":"洗掉淀粉，饼散；火大，外焦里生；糊太稀，摊不成饼。"},
+
+{"id":"home_018","name":"香煎豆腐","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":20,"servings":2,
+"ingredients":[{"name":"老豆腐","amount":"400g","note":""},{"name":"生抽","amount":"2 勺","note":""},{"name":"蒜","amount":"3 瓣","note":""},{"name":"葱花","amount":"适量","note":""}],
+"steps":{"select":"老豆腐选质地紧实的。","wash":"豆腐吸干水分。","cut":"切 1 厘米厚片。","blanch":"豆腐焯 1 分钟去豆腥，捞出吸干。","cook":"平底锅少油，豆腐片中火煎到两面金黄。","season":"淋生抽和蒜末调的汁，撒葱花，收干汤汁。"},
+"tips":"豆腐必须吸干水，否则粘锅溅油。一面定型再翻。","commonFails":"带水下锅，粘锅；翻太勤，碎；火大，外焦里凉。"},
+
+{"id":"home_019","name":"糖醋排骨","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":60,"servings":3,
+"ingredients":[{"name":"肋排","amount":"500g","note":""},{"name":"冰糖","amount":"40g","note":""},{"name":"香醋","amount":"3 勺","note":"分两次"},{"name":"生抽","amount":"2 勺","note":""}],
+"steps":{"select":"小排选肉厚骨细的。","wash":"排骨泡水 30 分钟去血水。","cut":"斩 3 厘米段。","blanch":"冷水下锅焯 3 分钟撇沫。","cook":"锅里少油，排骨煎至金黄。","season":"加冰糖、生抽、料酒和水，小火焖 30 分钟，加 2 勺醋收汁，出锅前补 1 勺醋。"},
+"tips":"醋分两次放，一次定味一次留香。","commonFails":"一次放完醋，酸味跑光；不收汁，不亮；糖太少，不够味。"},
+
+{"id":"home_020","name":"蜜汁鸡翅","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":40,"servings":2,
+"ingredients":[{"name":"鸡翅中","amount":"10 个","note":""},{"name":"蜂蜜","amount":"2 勺","note":""},{"name":"生抽","amount":"2 勺","note":""},{"name":"蒜","amount":"3 瓣","note":""}],
+"steps":{"select":"鸡翅选大小均匀的。","wash":"冲净划刀吸干。","cut":"两面各划两刀。","blanch":"冷水焯 2 分钟撇沫。","cook":"锅里少油，鸡翅煎到金黄。","season":"加生抽、蒜末和水焖 12 分钟，最后刷蜂蜜大火收汁至亮。"},
+"tips":"蜂蜜最后刷，早了会焦。","commonFails":"蜂蜜早放，烧焦发黑；不收汁，不亮；煎不金黄，皮不香。"},
+
+{"id":"home_021","name":"炒三丝","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":18,"servings":2,
+"ingredients":[{"name":"土豆","amount":"1 个","note":""},{"name":"胡萝卜","amount":"1 根","note":""},{"name":"青椒","amount":"1 个","note":""}],
+"steps":{"select":"三样颜色搭配，切丝粗细一致。","wash":"土豆去皮切丝泡水。","cut":"都切 0.3 厘米粗的丝。","blanch":"土豆丝焯 20 秒，捞出过凉。","cook":"热锅下油，蒜末炒香。","season":"三丝一起下锅大火炒 1 分钟，加盐和少许醋出锅。"},
+"tips":"三丝粗细一致才受热均匀。","commonFails":"切不匀，有的生有的烂；火小，出水；土豆不泡水，发黑。"},
+
+{"id":"home_022","name":"拍黄瓜","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":10,"servings":2,
+"ingredients":[{"name":"黄瓜","amount":"2 根","note":"嫩黄瓜"},{"name":"蒜","amount":"4 瓣","note":""},{"name":"生抽","amount":"1 勺","note":""},{"name":"香醋","amount":"2 勺","note":""}],
+"steps":{"select":"黄瓜选细嫩、籽少的。","wash":"洗净，用刀背拍裂。","cut":"拍裂后切 4 厘米段。","blanch":"不加热。","cook":"蒜末、生抽、香醋、糖、香油、辣椒油调成汁。","season":"倒入黄瓜拌匀，冷藏 10 分钟更入味。"},
+"tips":"拍比切好，断面粗糙更挂汁。","commonFails":"不拍只切，不入味；不腌一会，只有表面有味；醋放太少。"},
+
+{"id":"home_023","name":"皮蛋豆腐","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":1,"timeMin":10,"servings":2,
+"ingredients":[{"name":"内酯豆腐","amount":"1 盒","note":""},{"name":"皮蛋","amount":"2 个","note":""},{"name":"生抽","amount":"2 勺","note":""},{"name":"香醋","amount":"1 勺","note":""}],
+"steps":{"select":"豆腐选内酯的最嫩。皮蛋选溏心的。","wash":"豆腐倒出切块，皮蛋剥壳切瓣。","cut":"豆腐切 2 厘米块，皮蛋切 8 瓣。","blanch":"豆腐不加热，冷食。","cook":"生抽、香醋、蒜末、香油、辣椒油调成汁。","season":"豆腐铺底，皮蛋摆放，淋汁撒葱花。"},
+"tips":"刀蘸水切皮蛋，蛋黄不粘刀。","commonFails":"皮蛋切碎，卖相差；汁太咸；不放醋，发闷。"},
+
+{"id":"home_024","name":"香菇滑鸡","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":45,"servings":3,
+"ingredients":[{"name":"鸡腿肉","amount":"400g","note":""},{"name":"干香菇","amount":"8 朵","note":"泡发"},{"name":"生抽","amount":"2 勺","note":""},{"name":"淀粉","amount":"1 勺","note":""}],
+"steps":{"select":"干香菇比鲜的香。鸡腿肉比鸡胸嫩。","wash":"香菇泡发，泡菇水留着。鸡肉切块。","cut":"鸡腿切 3 厘米块，加生抽、淀粉腌 20 分钟。","blanch":"香菇焯 1 分钟去土腥。","cook":"鸡肉和香菇拌匀，铺在盘中。","season":"淋泡菇水和少许生抽，上锅大火蒸 20 分钟。鸡肉滑嫩，香菇吸汁。"},
+"tips":"泡菇水是鲜味来源。淀粉让鸡肉滑嫩。","commonFails":"鸡胸肉蒸完发柴；不腌，没味；蒸太久，肉老。"},
+
+{"id":"home_025","name":"咖喱鸡","cuisine":"家常菜","rarity":"common","mealSlots":["lunch","dinner"],"difficulty":2,"timeMin":50,"servings":3,
+"ingredients":[{"name":"鸡腿肉","amount":"400g","note":""},{"name":"土豆","amount":"2 个","note":""},{"name":"胡萝卜","amount":"1 根","note":""},{"name":"咖喱块","amount":"3 块","note":""}],
+"steps":{"select":"咖喱块选日式或泰式，看口味。鸡腿肉切块。","wash":"鸡肉切块，土豆胡萝卜切滚刀块。","cut":"切 3 厘米块。","blanch":"鸡肉焯 2 分钟去腥。","cook":"锅里炒香洋葱，下鸡肉炒至变色，加土豆胡萝卜翻炒。","season":"加水没过煮 15 分钟，关火放咖喱块搅化，再小火煮 5 分钟至浓稠。"},
+"tips":"咖喱块要关火后放，边搅边化，不然结块糊底。","commonFails":"咖喱块直接下滚水，结块；火大，糊底；水太多，太稀。"}
+]

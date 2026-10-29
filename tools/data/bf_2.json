@@ -1,0 +1,126 @@
+[
+{"id":"bf_026","name":"生煎包","cuisine":"早餐面点","rarity":"common","mealSlots":["breakfast"],"difficulty":3,"timeMin":100,"servings":4,
+"ingredients":[{"name":"面粉","amount":"300g","note":"发面"},{"name":"猪肉末","amount":"300g","note":""},{"name":"肉皮冻","amount":"100g","note":"汤汁"},{"name":"芝麻葱花","amount":"适量","note":"表面"}],
+"steps":{"select":"生煎包是半发酵面，底部煎脆、顶部松软。","wash":"肉末加盐、生抽、葱姜水搅上劲，拌入皮冻碎。","cut":"面团发酵后擀成小圆皮，包入馅料捏成包子。","blanch":"不焯水。","cook":"平底锅多油，包子褶朝下摆入，中火煎 2 分钟至底部金黄。","season":"倒半碗水，盖盖中火焖 8 分钟至水干，撒芝麻葱花，再淋少许油煎 1 分钟出锅。"},
+"tips":"水焖+油煎两步，底脆顶软。皮冻让咬开有汤。","commonFails":"没水焖，包子夹生；火大，底部焦黑；油太少，不脆。"},
+
+{"id":"bf_027","name":"豆沙包","cuisine":"早餐面点","rarity":"common","mealSlots":["breakfast"],"difficulty":2,"timeMin":120,"servings":4,
+"ingredients":[{"name":"面粉","amount":"500g","note":""},{"name":"酵母","amount":"5g","note":""},{"name":"红豆沙","amount":"300g","note":""}],
+"steps":{"select":"豆沙买现成的也行，自己炒的更香。","wash":"面粉加酵母和温水揉成团，发酵至两倍大。","cut":"面团排气分剂，擀成中间厚边缘薄的皮，包入豆沙收口。","blanch":"不焯水。","cook":"收口朝下，二次发酵 20 分钟。","season":"冷水上锅蒸 15 分钟，焖 5 分钟开盖。"},
+"tips":"收口要捏紧朝下，豆沙才不会流出来。","commonFails":"收口没捏紧，豆沙流出；不二次发酵，皮硬；立刻开盖，回缩。"},
+
+{"id":"bf_028","name":"奶黄包","cuisine":"早餐面点","rarity":"common","mealSlots":["breakfast"],"difficulty":3,"timeMin":120,"servings":4,
+"ingredients":[{"name":"面粉","amount":"500g","note":""},{"name":"鸡蛋","amount":"3 个","note":"奶黄馅"},{"name":"牛奶","amount":"200ml","note":""},{"name":"黄油","amount":"50g","note":""},{"name":"糖","amount":"80g","note":""}],
+"steps":{"select":"奶黄馅要自己炒，罐装的口感差很多。","wash":"鸡蛋、糖、牛奶、面粉搅匀，加黄油小火炒至浓稠成团。","cut":"炒好的奶黄馅冷藏 1 小时至硬，分成小球。面团发酵后分剂擀皮。","blanch":"不焯水。","cook":"包入奶黄馅收口，二次发酵 20 分钟。","season":"上锅蒸 12 分钟，焖 3 分钟。咬开奶黄流沙，香甜浓郁。"},
+"tips":"奶黄馅要炒到能成团，冷藏后才好包。","commonFails":"馅太稀，包不住；炒糊，发苦；蒸太久，馅流出。"},
+
+{"id":"bf_029","name":"叉烧包","cuisine":"早餐面点","rarity":"common","mealSlots":["breakfast"],"difficulty":3,"timeMin":150,"servings":4,
+"ingredients":[{"name":"低筋面粉","amount":"400g","note":"包子皮要软"},{"name":"叉烧","amount":"250g","note":"切丁"},{"name":"蚝油","amount":"2 勺","note":""},{"name":"酵母","amount":"5g","note":""}],
+"steps":{"select":"叉烧包皮要「开花」，用低筋面粉加泡打粉。","wash":"叉烧切小丁，加蚝油、生抽、糖、水淀粉炒成浓稠馅料，冷藏。","cut":"面团发酵后分剂擀皮，包入馅料，捏成三角或不收口的开花状。","blanch":"不焯水。","cook":"二次发酵 20 分钟至明显变大。","season":"大火蒸 15 分钟，包子会自然裂开露出馅料。"},
+"tips":"皮要软、发酵要足，蒸的时候才会开花。","commonFails":"面团太硬，不开花；馅太湿，流出来；发酵不足，包子瘪。"},
+
+{"id":"bf_030","name":"糯米烧卖","cuisine":"早餐面点","rarity":"common","mealSlots":["breakfast"],"difficulty":2,"timeMin":90,"servings":3,
+"ingredients":[{"name":"烧卖皮","amount":"20 张","note":""},{"name":"糯米","amount":"200g","note":"泡 4 小时"},{"name":"腊肠","amount":"1 根","note":"切丁"},{"name":"香菇","amount":"3 朵","note":"切丁"}],
+"steps":{"select":"烧卖皮要薄而有韧性，边缘有褶。","wash":"糯米泡 4 小时蒸 25 分钟。","cut":"腊肠香菇切小丁，与糯米饭加生抽、老抽拌匀。","blanch":"不焯水。","cook":"烧卖皮摊在手心，放一勺糯米馅，虎口收拢捏成烧卖形，顶部露出馅料。","season":"上锅大火蒸 10 分钟。"},
+"tips":"糯米要蒸不要煮，粒粒分明。顶部不封口是烧卖的特征。","commonFails":"糯米煮太烂，糊成一团；馅太湿，皮破；蒸太久，皮烂。"},
+
+{"id":"bf_031","name":"广式肠粉","cuisine":"早餐面点","rarity":"common","mealSlots":["breakfast"],"difficulty":3,"timeMin":40,"servings":2,
+"ingredients":[{"name":"粘米粉","amount":"100g","note":""},{"name":"澄面","amount":"20g","note":"增加透明感"},{"name":"鸡蛋","amount":"2 个","note":""},{"name":"生抽","amount":"2 勺","note":"肠粉汁"}],
+"steps":{"select":"粘米粉加澄面是做肠粉的标准配比，只用粘米粉太软。","wash":"粉类加水调成稀浆，过筛去颗粒，静置 30 分钟。","cut":"准备平底盘，刷薄油。","blanch":"不焯水。","cook":"盘里倒一勺浆晃匀，打一个鸡蛋划散，撒葱花，上锅大火蒸 3 分钟至起大泡。","season":"取出用刮板卷起，切段装盘，淋肠粉汁（生抽、糖、水、香油）。"},
+"tips":"浆要稀、盘要薄、火要大，肠粉才薄滑。","commonFails":"浆太稠，皮厚；火小，不起泡不熟；不刷油，粘盘。"},
+
+{"id":"bf_032","name":"萝卜糕","cuisine":"早餐面点","rarity":"common","mealSlots":["breakfast"],"difficulty":2,"timeMin":90,"servings":4,
+"ingredients":[{"name":"白萝卜","amount":"500g","note":""},{"name":"粘米粉","amount":"200g","note":""},{"name":"腊肠","amount":"1 根","note":"切丁"},{"name":"虾米","amount":"20g","note":""}],
+"steps":{"select":"白萝卜选掂着沉、皮光滑的。","wash":"萝卜去皮擦丝，挤掉部分水分（水留着调粉）。","cut":"腊肠切丁，虾米泡软。","blanch":"萝卜丝干锅炒 3 分钟去辛辣。","cook":"粘米粉用萝卜水调成糊，拌入萝卜丝、腊肠、虾米，加盐和胡椒。","season":"倒入抹油的模具，上锅大火蒸 60 分钟。晾凉切片，煎至两面金黄。"},
+"tips":"必须晾凉再切，热切会散。煎过更香。","commonFails":"水太多，糕不成型；蒸的时间不够，中间稀；热切，散架。"},
+
+{"id":"bf_033","name":"芋头糕","cuisine":"早餐面点","rarity":"common","mealSlots":["breakfast"],"difficulty":2,"timeMin":90,"servings":4,
+"ingredients":[{"name":"芋头","amount":"400g","note":"荔浦芋头最好"},{"name":"粘米粉","amount":"200g","note":""},{"name":"腊肠","amount":"1 根","note":""},{"name":"虾米","amount":"20g","note":""}],
+"steps":{"select":"荔浦芋头粉糯香，是芋头糕的首选。","wash":"芋头去皮切 1 厘米丁（戴手套防痒）。","cut":"腊肠切丁，虾米泡软。","blanch":"芋头丁干锅炒 3 分钟至表面微黄。","cook":"粘米粉加水调糊，拌入芋头丁、腊肠、虾米，加盐和五香粉。","season":"倒入模具，大火蒸 60 分钟。晾凉切片煎香。"},
+"tips":"芋头切丁不要太小，蒸完才有颗粒感。","commonFails":"芋头切太碎，没口感；糊太稀，不成型；不晾凉就切，散。"},
+
+{"id":"bf_034","name":"糯米鸡","cuisine":"早餐面点","rarity":"common","mealSlots":["breakfast","lunch"],"difficulty":3,"timeMin":120,"servings":3,
+"ingredients":[{"name":"糯米","amount":"300g","note":"泡 4 小时"},{"name":"鸡腿肉","amount":"200g","note":"切块"},{"name":"香菇","amount":"4 朵","note":""},{"name":"咸蛋黄","amount":"2 个","note":""},{"name":"荷叶","amount":"2 张","note":"泡软"}],
+"steps":{"select":"干荷叶泡软后包糯米鸡，蒸出来有清香。","wash":"糯米泡 4 小时蒸 25 分钟。鸡肉切块用生抽、蚝油、淀粉腌 30 分钟。","cut":"香菇切块，咸蛋黄对半切。","blanch":"鸡肉滑油至变色。","cook":"糯米加生抽、蚝油拌匀。荷叶铺开，放一层糯米、鸡肉香菇咸蛋黄，再盖一层糯米，包成方包。","season":"上锅大火蒸 30 分钟。荷叶香渗入糯米，馅料咸鲜。"},
+"tips":"糯米要先调味再包。荷叶包紧，香气才不跑。","commonFails":"糯米没调味，寡淡；荷叶没泡软，包时破；蒸的时间不够，馅不熟。"},
+
+{"id":"bf_035","name":"春卷","cuisine":"早餐面点","rarity":"common","mealSlots":["breakfast","lunch"],"difficulty":2,"timeMin":60,"servings":3,
+"ingredients":[{"name":"春卷皮","amount":"20 张","note":""},{"name":"白菜","amount":"200g","note":""},{"name":"肉丝","amount":"100g","note":""},{"name":"香菇","amount":"3 朵","note":""}],
+"steps":{"select":"春卷皮要薄而有韧性，买现成的最方便。","wash":"白菜切丝，香菇切丝。","cut":"肉丝上浆滑熟，加白菜香菇炒熟，勾薄芡，晾凉。","blanch":"馅必须晾凉再包，热的会把皮烫破。","cook":"春卷皮放馅，两角折起卷紧，用蛋液封口。","season":"油温六成热，春卷下锅炸 3 分钟至金黄酥脆。"},
+"tips":"馅要晾凉、要勾芡（不出水）、要卷紧。","commonFails":"馅太湿，皮破；没卷紧，炸时散；油温低，吸油。"},
+
+{"id":"bf_036","name":"糖三角","cuisine":"早餐面点","rarity":"common","mealSlots":["breakfast"],"difficulty":2,"timeMin":120,"servings":4,
+"ingredients":[{"name":"面粉","amount":"500g","note":""},{"name":"酵母","amount":"5g","note":""},{"name":"红糖","amount":"100g","note":""},{"name":"面粉","amount":"2 勺","note":"拌糖防流"}],
+"steps":{"select":"红糖加两勺面粉拌匀，蒸的时候糖才不流出来。","wash":"面粉加酵母揉成团发酵至两倍大。","cut":"面团分剂擀成圆皮，放一勺红糖馅。","blanch":"不焯水。","cook":"三个角向中间捏合成三角形，捏紧边缘。","season":"二次发酵 20 分钟，上锅蒸 15 分钟，焖 5 分钟。"},
+"tips":"糖里拌面粉是关键，否则蒸完糖全流出来。","commonFails":"糖没拌面粉，流得到处都是；边缘没捏紧，漏糖；不二次发酵，皮硬。"},
+
+{"id":"bf_037","name":"虾饺","cuisine":"早餐面点","rarity":"signature","mealSlots":["breakfast","lunch"],"difficulty":3,"timeMin":90,"servings":3,
+"ingredients":[{"name":"澄面","amount":"150g","note":"虾饺皮必须用澄面"},{"name":"生粉","amount":"50g","note":""},{"name":"虾仁","amount":"300g","note":"鲜虾现剥"},{"name":"笋丁","amount":"50g","note":""},{"name":"猪油","amount":"1 勺","note":""}],
+"steps":{"select":"虾饺皮用澄面（小麦淀粉）加生粉，才能做出透明的水晶皮。","wash":"虾仁一半剁茸一半切粒，加笋丁、盐、糖、猪油、淀粉拌成馅，冷藏 30 分钟。","cut":"澄面加生粉，用滚水烫熟揉成团，加猪油揉匀。","blanch":"不焯水。皮要用滚水烫，否则不透明。","cook":"面团擀成薄圆皮，包入馅料，捏出 12 个以上的褶。","season":"上锅大火蒸 6 分钟。皮薄透亮能看到虾肉，咬开有汁。"},
+"tips":"烫面必须用滚水。褶要捏得薄，蒸出来才透。","commonFails":"水温不够，皮不透明；褶太厚，蒸不透；蒸过头，皮裂。"},
+
+{"id":"bf_038","name":"流沙包","cuisine":"早餐面点","rarity":"signature","mealSlots":["breakfast"],"difficulty":3,"timeMin":120,"servings":4,
+"ingredients":[{"name":"面粉","amount":"400g","note":""},{"name":"咸蛋黄","amount":"4 个","note":"蒸熟压碎"},{"name":"黄油","amount":"60g","note":""},{"name":"奶粉","amount":"30g","note":""},{"name":"糖","amount":"60g","note":""}],
+"steps":{"select":"流沙馅的关键是咸蛋黄和黄油的比例，冷了才凝，热了就流。","wash":"咸蛋黄蒸熟压成泥，加黄油、奶粉、糖拌匀，冷藏 2 小时至硬。","cut":"面团发酵后分剂擀皮，包入冷藏的流沙馅，收口朝下。","blanch":"不焯水。","cook":"二次发酵 20 分钟。","season":"大火蒸 10 分钟。趁热咬开，金黄的馅会流出来。"},
+"tips":"馅必须冷藏到硬才包得住。蒸的时间不能长，久了馅会漏。","commonFails":"馅没冷藏，包不住；蒸太久，流沙漏出；火太大，皮开裂。"},
+
+{"id":"bf_039","name":"葡式蛋挞","cuisine":"早餐面点","rarity":"signature","mealSlots":["breakfast"],"difficulty":3,"timeMin":90,"servings":4,
+"ingredients":[{"name":"蛋挞皮","amount":"12 个","note":"现成冷冻的即可"},{"name":"淡奶油","amount":"200ml","note":""},{"name":"牛奶","amount":"100ml","note":""},{"name":"蛋黄","amount":"4 个","note":""},{"name":"糖","amount":"60g","note":""}],
+"steps":{"select":"蛋挞皮买现成的千层皮，自己开酥太费时。","wash":"淡奶油、牛奶、糖小火加热至糖化，放凉。","cut":"加入蛋黄搅匀，过筛两遍去泡沫。","blanch":"蛋挞液必须过筛，烤出来才细腻无孔。","cook":"挞皮从冷冻取出回温 10 分钟，倒入挞液至八分满。","season":"烤箱 220 度预热，中层烤 20 分钟至表面出现焦斑。"},
+"tips":"高温烤才能出焦斑。挞液不要倒满，烤时会膨胀。","commonFails":"温度低，烤不出焦斑；挞液没过筛，有孔洞；倒太满，溢出。"},
+
+{"id":"bf_040","name":"干蒸烧卖","cuisine":"早餐面点","rarity":"signature","mealSlots":["breakfast","lunch"],"difficulty":3,"timeMin":80,"servings":3,
+"ingredients":[{"name":"烧卖皮","amount":"20 张","note":"黄色薄皮"},{"name":"猪肉末","amount":"250g","note":"肥三瘦七"},{"name":"虾仁","amount":"100g","note":"切粒"},{"name":"香菇","amount":"3 朵","note":"切丁"}],
+"steps":{"select":"广式干蒸用黄皮，馅要打上劲才弹牙。","wash":"肉末加虾仁粒、香菇丁、盐、糖、淀粉，顺一个方向搅打上劲。","cut":"馅料冷藏 30 分钟。","blanch":"不焯水。","cook":"烧卖皮摊开，放一勺馅，虎口收拢捏成小杯状，顶部露出馅。","season":"上锅大火蒸 8 分钟。顶部可以点缀一点蟹黄或胡萝卜碎。"},
+"tips":"馅要打到起胶，蒸出来才弹。皮要捏出小褶。","commonFails":"馅没打上劲，散；蒸过头，皮烂；馅太湿，皮破。"},
+
+{"id":"bf_041","name":"菠萝包","cuisine":"早餐面点","rarity":"signature","mealSlots":["breakfast"],"difficulty":3,"timeMin":150,"servings":4,
+"ingredients":[{"name":"高筋面粉","amount":"300g","note":"面包体"},{"name":"黄油","amount":"60g","note":"酥皮"},{"name":"糖","amount":"60g","note":""},{"name":"鸡蛋","amount":"1 个","note":""},{"name":"酵母","amount":"4g","note":""}],
+"steps":{"select":"菠萝包 = 软面包 + 酥皮。酥皮要划出格子纹才有「菠萝」的样子。","wash":"面包体材料揉至出膜，发酵至两倍大。酥皮材料（黄油、糖、蛋、低粉）揉成团冷藏。","cut":"面团分剂滚圆，酥皮擀薄盖在上面，用刀划出格子纹。","blanch":"不焯水。","cook":"二次发酵 40 分钟至两倍大。","season":"烤箱 180 度烤 15 分钟至表面金黄。出炉夹一片冰黄油最好吃。"},
+"tips":"酥皮要擀得比面包坯大一圈，烤的时候会自然裂开成格子。","commonFails":"酥皮太厚，盖住面包；没划纹，看不出菠萝；发酵不足，面包硬。"},
+
+{"id":"bf_042","name":"叉烧酥","cuisine":"早餐面点","rarity":"signature","mealSlots":["breakfast"],"difficulty":3,"timeMin":120,"servings":4,
+"ingredients":[{"name":"酥皮","amount":"4 张","note":"千层酥皮"},{"name":"叉烧","amount":"200g","note":"切丁"},{"name":"蚝油","amount":"2 勺","note":""},{"name":"蛋黄","amount":"1 个","note":"刷面"}],
+"steps":{"select":"千层酥皮买现成的最好，自己开酥费时。","wash":"叉烧切小丁，加蚝油、生抽、糖和水淀粉炒成浓稠馅料，晾凉。","cut":"酥皮切 10 厘米见方，包入馅料，对折捏紧成半月形。","blanch":"不焯水。","cook":"表面刷蛋黄液，用叉子划两下。","season":"烤箱 200 度烤 18 分钟至金黄起酥。"},
+"tips":"馅要晾凉再包，热的会把酥皮烫软。表面刷蛋黄才亮。","commonFails":"馅太湿，酥皮软塌；没捏紧，烤时开口；温度低，不起酥。"},
+
+{"id":"bf_043","name":"灌汤包","cuisine":"早餐面点","rarity":"signature","mealSlots":["breakfast"],"difficulty":3,"timeMin":150,"servings":4,
+"ingredients":[{"name":"面粉","amount":"300g","note":"冷水面"},{"name":"猪肉末","amount":"300g","note":""},{"name":"猪皮冻","amount":"200g","note":"汤的来源"},{"name":"姜","amount":"适量","note":""}],
+"steps":{"select":"灌汤包的汤全靠猪皮冻，皮冻和肉馅比例约 1:1。","wash":"猪皮冻切极细的末。肉末加盐、生抽、姜末搅上劲。","cut":"皮冻末拌入肉馅，冷藏 1 小时。","blanch":"不焯水。","cook":"面团揉至光滑醒 30 分钟，擀成中厚边薄的皮，包入馅料，捏 20 个褶。","season":"上锅大火蒸 10 分钟。吃的时候先咬破一个小口吸汤，小心烫。"},
+"tips":"皮冻要切得极细，不然戳破包子皮。蒸的时间不能长。","commonFails":"皮冻块太大，戳破皮；皮太厚，吸不到汤；蒸太久，汤漏。"},
+
+{"id":"bf_044","name":"阳春面","cuisine":"早餐面点","rarity":"signature","mealSlots":["breakfast","lunch"],"difficulty":2,"timeMin":20,"servings":2,
+"ingredients":[{"name":"细面条","amount":"200g","note":"碱水面"},{"name":"猪油","amount":"1 勺","note":"灵魂"},{"name":"生抽","amount":"2 勺","note":""},{"name":"葱花","amount":"适量","note":""}],
+"steps":{"select":"阳春面就是「光面」，全靠汤底。猪油不能省。","wash":"葱花切细。","cut":"碗底放猪油、生抽、盐、葱花。","blanch":"面条煮到八分熟捞出。","cook":"舀一勺滚烫的面汤冲入碗中，把猪油和调料冲开。","season":"捞入面条。汤要清亮，猪油香要突出。"},
+"tips":"阳春面的精髓是「猪油+葱花+滚汤」，越简单越考验功夫。","commonFails":"不用猪油，寡淡；汤不够烫，冲不开猪油；面条煮软。"},
+
+{"id":"bf_045","name":"鲜肉月饼","cuisine":"早餐面点","rarity":"signature","mealSlots":["breakfast","lunch"],"difficulty":3,"timeMin":150,"servings":4,
+"ingredients":[{"name":"面粉","amount":"300g","note":"水油皮+油酥"},{"name":"猪油","amount":"100g","note":""},{"name":"猪肉末","amount":"300g","note":""},{"name":"生抽","amount":"2 勺","note":""}],
+"steps":{"select":"苏式鲜肉月饼是酥皮包肉馅，烤出来层层起酥、肉汁浸润。","wash":"水油皮（面粉+猪油+水）和油酥（面粉+猪油）分别揉好，各分 8 份。","cut":"水油皮包住油酥，擀开卷起，重复两次，再擀成圆皮。","blanch":"不焯水。","cook":"肉末加生抽、盐、葱姜水搅上劲。包入酥皮，收口朝下压扁。","season":"平底锅小火烙或烤箱 180 度烤 25 分钟。酥皮层层分明，咬开有肉汁。"},
+"tips":"两次擀卷是起酥的关键。肉馅要打上劲，烤的时候才有汁。","commonFails":"油酥比例不对，不起层；收口不紧，肉汁流出；火大，外焦里生。"},
+
+{"id":"bf_046","name":"芝麻烧饼","cuisine":"早餐面点","rarity":"signature","mealSlots":["breakfast"],"difficulty":2,"timeMin":90,"servings":4,
+"ingredients":[{"name":"面粉","amount":"300g","note":""},{"name":"芝麻酱","amount":"3 勺","note":""},{"name":"芝麻","amount":"适量","note":"表面"},{"name":"酵母","amount":"3g","note":""}],
+"steps":{"select":"芝麻酱要选纯芝麻磨的，香味足。","wash":"面粉加酵母揉成团，发酵 40 分钟。","cut":"面团擀开，抹芝麻酱撒盐，卷起盘成团再擀成饼。","blanch":"不焯水。","cook":"表面刷水沾满芝麻。","season":"平底锅小火烙至两面金黄，或烤箱 200 度烤 15 分钟。"},
+"tips":"芝麻酱要抹匀但别太多，多了会流。表面刷水芝麻才粘得住。","commonFails":"酱太多，卷的时候流出；不刷水，芝麻掉光；火大，外焦里生。"},
+
+{"id":"bf_047","name":"蟹黄汤包","cuisine":"早餐面点","rarity":"signature","mealSlots":["breakfast"],"difficulty":3,"timeMin":180,"servings":4,
+"ingredients":[{"name":"面粉","amount":"300g","note":""},{"name":"猪肉末","amount":"250g","note":""},{"name":"蟹黄蟹肉","amount":"150g","note":""},{"name":"猪皮冻","amount":"250g","note":""}],
+"steps":{"select":"靖江蟹黄汤包是顶级汤包，皮薄如纸、汤汁充盈。","wash":"蟹黄蟹肉用猪油炒香，加姜末去腥。","cut":"肉末加盐、生抽、姜末搅上劲，拌入皮冻末和蟹粉，冷藏 2 小时。","blanch":"不焯水。","cook":"面团擀成极薄的圆皮（能透光），包入馅料，捏出 30 个以上的细褶。","season":"上锅大火蒸 8 分钟。吃法：先用吸管吸汤，再吃皮和馅。"},
+"tips":"皮要薄到透光，褶要细密。蒸的时间必须短。","commonFails":"皮太厚，吸不到汤；褶不密，蒸时开口；蒸过头，汤漏。"},
+
+{"id":"bf_048","name":"榴莲酥","cuisine":"早餐面点","rarity":"rare","mealSlots":["breakfast"],"difficulty":3,"timeMin":120,"servings":3,
+"ingredients":[{"name":"千层酥皮","amount":"4 张","note":""},{"name":"榴莲肉","amount":"200g","note":"去核"},{"name":"黄油","amount":"30g","note":""},{"name":"蛋黄","amount":"1 个","note":"刷面"}],
+"steps":{"select":"榴莲选熟透的，肉要软糯香甜。酥皮买现成的千层皮。","wash":"榴莲肉去核，用勺子压成泥，加黄油拌匀。","cut":"酥皮切 10 厘米见方，放一勺榴莲馅，对折成三角形，用叉子压边封口。","blanch":"不焯水。","cook":"表面刷蛋黄液，用刀划两道口子放气。","season":"烤箱 200 度烤 18 分钟至金黄起酥。趁热吃，外酥内流。"},
+"tips":"榴莲馅不要放太多，烤的时候会膨胀溢出。划口子放气很重要。","commonFails":"馅太多，烤时爆开；不划口，鼓成球；温度低，不起酥。"},
+
+{"id":"bf_049","name":"萝卜丝酥饼","cuisine":"早餐面点","rarity":"rare","mealSlots":["breakfast"],"difficulty":3,"timeMin":150,"servings":4,
+"ingredients":[{"name":"面粉","amount":"300g","note":""},{"name":"猪油","amount":"100g","note":"起酥"},{"name":"白萝卜","amount":"400g","note":""},{"name":"火腿","amount":"50g","note":""}],
+"steps":{"select":"萝卜丝酥饼是苏式点心，讲究「一碰掉渣」。","wash":"萝卜擦丝加盐腌 10 分钟挤干。火腿切细末。","cut":"萝卜丝加火腿末、葱花、香油拌成馅。水油皮和油酥分别做好，两次擀卷成酥皮。","blanch":"萝卜必须腌过挤水，否则馅出水把酥皮泡软。","cook":"酥皮包入馅料，收口朝下压成饼，表面刷蛋液沾芝麻。","season":"烤箱 190 度烤 25 分钟，或平底锅小火烙。层层酥皮一碰就掉。"},
+"tips":"酥皮两次擀卷是关键。萝卜必须挤干水。","commonFails":"萝卜没挤水，酥皮软塌；擀卷次数不够，层次少；火大，外焦里生。"},
+
+{"id":"bf_050","name":"广式早茶拼盘","cuisine":"早餐面点","rarity":"rare","mealSlots":["breakfast"],"difficulty":3,"timeMin":180,"servings":4,
+"ingredients":[{"name":"虾饺","amount":"6 个","note":"现包或现成"},{"name":"烧卖","amount":"6 个","note":""},{"name":"凤爪","amount":"6 只","note":""},{"name":"糯米鸡","amount":"2 个","note":""},{"name":"肠粉","amount":"2 条","note":""}],
+"steps":{"select":"早茶拼盘讲究「一盅两件」，样样都要有。可以提前一天准备好半成品。","wash":"凤爪剪指甲焯水后炸至起皱泡冰水，用豉汁腌好。","cut":"各类点心分别备好。","blanch":"凤爪必须炸后泡冰水，才会起虎皮。","cook":"蒸笼分层摆放：下层糯米鸡（需要时间长），中层凤爪烧卖，上层虾饺肠粉。","season":"大火蒸 15 分钟，先取上层再取下层。配一壶普洱，就是完整的早茶。"},
+"tips":"分层蒸、按时间先后取，是早茶的基本功。","commonFails":"全放一层，有的生有的烂；火不够大，点心不熟；蒸太久，虾饺皮裂。"}
+]

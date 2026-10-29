@@ -1,0 +1,24 @@
+# 构建产物
+/build
+/app/build
+/.gradle
+/.kotlin
+/captures
+.externalNativeBuild
+.cxx
+
+# 本地配置（含 SDK 路径，不该入库）
+/local.properties
+
+# IDE
+*.iml
+/.idea
+.DS_Store
+
+# 菜品图：11.6MB 二进制，且来自第三方公开菜谱页，不入库。
+# 需要时用 `python3 tools/fetch_photos.py` 重新生成（约 15 分钟）。
+/app/src/main/assets/dish_photos/
+
+# APK 产物
+*.apk
+*.aab
