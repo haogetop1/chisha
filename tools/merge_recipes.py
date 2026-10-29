@@ -128,26 +128,29 @@ def main():
         json.dump(all_recipes, fh, ensure_ascii=False, separators=(",", ":"))
     print("已写出", OUT, f"{os.path.getsize(OUT)/1024:.0f} KB")
 
-    # 顺手把通用挑菜知识库拷进 assets，并做基本校验
-    src = os.path.join(ROOT, "tools", "picking.json")
-    dst = os.path.join(ROOT, "app", "src", "main", "assets", "picking.json")
-    tips = json.load(open(src, encoding="utf-8"))
-    seen, terr = set(), []
-    for i, e in enumerate(tips):
-        k, t = (e.get("k") or "").strip(), (e.get("t") or "").strip()
-        if not k or not t:
-            terr.append(f"第 {i} 条 k/t 为空"); continue
-        if k in seen:
-            terr.append(f"关键词重复: {k}")
-        seen.add(k)
-    if terr:
-        print(f"挑菜库校验失败 {len(terr)} 处：")
-        for e in terr[:20]:
-            print("  -", e)
-        sys.exit(2)
-    with open(dst, "w", encoding="utf-8") as fh:
-        json.dump(tips, fh, ensure_ascii=False, separators=(",", ":"))
-    print(f"挑菜库 {len(tips)} 条 -> {dst}")
+    # 顺手把通用挑菜库 / 切菜库拷进 assets，并做基本校验
+    for name, label in (("picking.json", "挑菜库"), ("cutting.json", "切菜库")):
+        src = os.path.join(ROOT, "tools", name)
+        dst = os.path.join(ROOT, "app", "src", "main", "assets", name)
+        if not os.path.exists(src):
+            print(f"跳过 {label}（没有 {name}）"); continue
+        tips = json.load(open(src, encoding="utf-8"))
+        seen, terr = set(), []
+        for i, e in enumerate(tips):
+            k, t = (e.get("k") or "").strip(), (e.get("t") or "").strip()
+            if not k or not t:
+                terr.append(f"第 {i} 条 k/t 为空"); continue
+            if k in seen:
+                terr.append(f"关键词重复: {k}")
+            seen.add(k)
+        if terr:
+            print(f"{label}校验失败 {len(terr)} 处：")
+            for e in terr[:20]:
+                print("  -", e)
+            sys.exit(2)
+        with open(dst, "w", encoding="utf-8") as fh:
+            json.dump(tips, fh, ensure_ascii=False, separators=(",", ":"))
+        print(f"{label} {len(tips)} 条 -> {dst}")
 
 if __name__ == "__main__":
     main()

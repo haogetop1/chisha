@@ -66,7 +66,9 @@ data class Ingredient(
     /** 买回来怎么处理：洗法、切法、泡发、腌制…（v2 菜谱才有） */
     val prep: String = "",
     /** 在超市/菜场怎么挑这味食材（v2 菜谱才有，没有会去通用挑菜库里匹配） */
-    val pick: String = ""
+    val pick: String = "",
+    /** 这味食材怎么切（v2 菜谱才有，没有会去通用切菜库里匹配） */
+    val cut: String = ""
 )
 
 /** 火候时间轴的一行 */

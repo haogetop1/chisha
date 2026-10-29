@@ -27,6 +27,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.chisha.app.data.CuttingTips
 import com.chisha.app.data.PickingTips
 import com.chisha.app.domain.Recipe
 import com.chisha.app.ui.components.ExtraSection
@@ -183,6 +184,74 @@ fun RecipeScreen(
                         )
                     }
                     if (i != picks.lastIndex) {
+                        Box(
+                            Modifier
+                                .fillMaxWidth()
+                                .padding(horizontal = 14.dp)
+                                .height(1.dp)
+                                .background(WarmOutline.copy(alpha = 0.5f))
+                        )
+                    }
+                }
+            }
+        }
+
+        // 「食材怎么切」：菜谱自带的 cut 优先，没有就去通用切菜库匹配
+        val cuts = remember(recipe.id) {
+            recipe.ingredients.mapNotNull { ing ->
+                val tip = ing.cut.ifBlank { CuttingTips.forIngredient(ing.name) ?: "" }
+                if (tip.isBlank()) null else ing.name to tip
+            }
+        }
+        if (cuts.isNotEmpty()) {
+            Spacer(Modifier.height(18.dp))
+            SectionTitle("食材怎么切")
+            Spacer(Modifier.height(4.dp))
+            Text(
+                "刀要快、下刀要利落。来回锯会把纤维拉断，出水更多、口感也差。",
+                fontSize = 11.5.sp,
+                color = InkTertiary,
+                lineHeight = 17.sp
+            )
+            Spacer(Modifier.height(10.dp))
+            Column(
+                Modifier
+                    .fillMaxWidth()
+                    .clip(RoundedCornerShape(16.dp))
+                    .background(WarmSurface)
+                    .padding(vertical = 6.dp)
+            ) {
+                cuts.forEachIndexed { i, (name, tip) ->
+                    Row(
+                        Modifier
+                            .fillMaxWidth()
+                            .padding(horizontal = 14.dp, vertical = 9.dp),
+                        verticalAlignment = Alignment.Top
+                    ) {
+                        Box(
+                            Modifier
+                                .clip(RoundedCornerShape(5.dp))
+                                .background(Color(0xFFFBEBDC))
+                                .padding(horizontal = 6.dp, vertical = 2.dp)
+                        ) {
+                            Text(
+                                name,
+                                fontSize = 11.5.sp,
+                                color = Ochre,
+                                fontWeight = FontWeight.Medium,
+                                maxLines = 1
+                            )
+                        }
+                        Spacer(Modifier.width(9.dp))
+                        Text(
+                            tip,
+                            fontSize = 12.5.sp,
+                            lineHeight = 19.sp,
+                            color = InkSecondary,
+                            modifier = Modifier.weight(1f)
+                        )
+                    }
+                    if (i != cuts.lastIndex) {
                         Box(
                             Modifier
                                 .fillMaxWidth()

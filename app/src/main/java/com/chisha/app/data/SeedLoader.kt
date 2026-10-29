@@ -22,6 +22,7 @@ object SeedLoader {
         CalendarTable.load(context)
         DishPhotos.load(context)
         PickingTips.load(context)
+        CuttingTips.load(context)
         seedRecipes(context, db)
         seedAchievements(context, db)
         if (db.profileDao().get() == null) {
@@ -117,7 +118,8 @@ object SeedLoader {
                 amount = o.optString("amount"),
                 note = o.optString("note"),
                 prep = o.optString("prep"),
-                pick = o.optString("pick")
+                pick = o.optString("pick"),
+                cut = o.optString("cut")
             )
         }
     }.getOrElse { emptyList() }
