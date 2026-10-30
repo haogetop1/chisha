@@ -192,7 +192,11 @@ fun DrawScreen(
                     .padding(horizontal = 12.dp, vertical = 8.dp)
             ) {
                 Text(
-                    "本池 ${session.poolSize} 道 · 这道菜被抽中的概率 ${pct(session.outcome.probability)}",
+                    if (session.outcome.candidateCount == session.poolSize)
+                        "本池 ${session.poolSize} 道 · 这道菜被抽中的概率 ${pct(session.outcome.probability)}"
+                    else
+                        "本池 ${session.poolSize} 道（本轮候选 ${session.outcome.candidateCount} 道）" +
+                            " · 这道菜这次被抽中的概率 ${pct(session.outcome.probability)}",
                     fontSize = 12.sp,
                     color = InkTertiary
                 )

@@ -58,6 +58,17 @@ interface CookDao {
     @Query("SELECT * FROM cook_logs WHERE dayKey = :dayKey")
     suspend fun byDay(dayKey: String): List<CookLogEntity>
 
+    /**
+     * 只算「有成品图」的完成记录。
+     * 「首单 ×1.3」「首次 +30」这类一次性奖励要用这个口径——否则一次没拍照的完成
+     * 会把奖励额度白白吃掉，而它自己又给 0 经验。
+     */
+    @Query("SELECT * FROM cook_logs WHERE dayKey = :dayKey AND photoPath IS NOT NULL")
+    suspend fun byDayWithPhoto(dayKey: String): List<CookLogEntity>
+
+    @Query("SELECT COUNT(*) FROM cook_logs WHERE recipeId = :recipeId AND photoPath IS NOT NULL")
+    suspend fun photoCountByRecipe(recipeId: String): Int
+
     @Query("SELECT COUNT(*) FROM cook_logs")
     suspend fun count(): Int
 

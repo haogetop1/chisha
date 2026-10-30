@@ -230,9 +230,10 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
         val dayKey = StatsBuilder.dayKey(now)
         val recipe = session.outcome.recipe
 
-        val todayLogs = db.cookDao().byDay(dayKey)
-        val firstOfDay = todayLogs.isEmpty()
-        val isNewRecipe = db.cookDao().byRecipe(recipe.id).isEmpty()
+        // 一次性奖励按「有成品图」的口径算：没拍照的完成只进图鉴，不占用首单 / 首次额度
+        val todayPhotoLogs = db.cookDao().byDayWithPhoto(dayKey)
+        val firstOfDay = todayPhotoLogs.isEmpty()
+        val isNewRecipe = db.cookDao().photoCountByRecipe(recipe.id) == 0
 
         val quota = db.quotaDao().get(dayKey) ?: DailyQuotaEntity(dayKey)
         val newQuota = when (session.slot) {

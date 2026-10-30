@@ -24,6 +24,13 @@ import kotlin.random.Random
 data class DrawOutcome(
     val recipe: Recipe,
     val probability: Double,
+    /**
+     * 这次抽取真正参与归一化的候选数。
+     * 「再换一个」会排除上一道，所以它可能小于池子大小——界面上的概率分母必须用它，
+     * 不能拿「本池 45 道」去配一个按 44 道算出来的概率。
+     */
+    val candidateCount: Int,
+    /** 这次抽取落在「中奖那一道所属档位」的总概率，稀有弹窗要用 */
     val tierProbability: Double
 )
 
@@ -80,6 +87,7 @@ object DrawEngine {
         return DrawOutcome(
             recipe = chosen,
             probability = weights[picked] / total,
+            candidateCount = candidates.size,
             tierProbability = tierTotal / total
         )
     }

@@ -31,6 +31,10 @@ android {
         }
     }
 
+    testOptions {
+        unitTests.isReturnDefaultValues = true   // 单测跑在 JVM 上，android.* 桩方法返回默认值
+    }
+
     packaging {
         resources.excludes += "/META-INF/{AL2.0,LGPL2.1}"
     }
@@ -59,4 +63,7 @@ dependencies {
     ksp("androidx.room:room-compiler:2.8.5")
 
     debugImplementation("androidx.compose.ui:ui-tooling")
+
+    // 数值逻辑（抽取概率、等级曲线）的单测
+    testImplementation("junit:junit:4.13.2")
 }
